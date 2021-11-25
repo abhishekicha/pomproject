@@ -20,18 +20,17 @@ public class HomePage {
 	}
 	
 	
-	@FindBy(xpath="//div[contains(text(),'Account')]/..//div//div/*") 
+	@FindBy(how=How.XPATH, using="//div[contains(text(),'Account')]/..//div//div/*") 
     WebElement Account;
 	
-	@FindBy(how=How.XPATH, using="/html/body/div[1]/div/div/div[2]/div/div[2]/div[1]/div/div[1]/div/div/div/div[3]/div/ul/li[4]/a/span[1]") 
+	@FindBy(how=How.XPATH, using="//div[@class='HeaderV2__navigation-item__1yICo']//span/*") 
     WebElement Logout;
 	
 	
 	public void logout_to_saucedemo() throws InterruptedException {
-		//new WebDriverWait(driver, 60).until(ExpectedConditions.visibilityOf(Account));
+		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 		Account.click();
         Logout.click();
-        driver.quit();
-	}
 
+	}
 }

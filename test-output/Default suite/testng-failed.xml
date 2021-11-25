@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="saucelabs_testcases.Logout">
+      <class name="saucelabs_testcases.VerifyValidLogin">
         <methods>
-          <include name="LogoutPage"/>
+          <include name="checkValidUser"/>
         </methods>
-      </class> <!-- saucelabs_testcases.Logout -->
+      </class> <!-- saucelabs_testcases.VerifyValidLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
