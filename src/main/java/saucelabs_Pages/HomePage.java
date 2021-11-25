@@ -9,6 +9,7 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage {
@@ -19,20 +20,18 @@ public class HomePage {
 	}
 	
 	
-	@FindBy(xpath="/html/body/div[1]/div/div/div[2]/div/div[2]/div[1]/div/div[1]/div/div/div/div[3]/div/button") 
-	WebElement Account;
+	@FindBy(xpath="//div[contains(text(),'Account')]/..//div//div/*") 
+    WebElement Account;
 	
 	@FindBy(how=How.XPATH, using="/html/body/div[1]/div/div/div[2]/div/div[2]/div[1]/div/div[1]/div/div/div/div[3]/div/ul/li[4]/a/span[1]") 
-	@CacheLookup WebElement Logout;
+    WebElement Logout;
 	
 	
 	public void logout_to_saucedemo() throws InterruptedException {
-		@SuppressWarnings("deprecation")
-		WebDriverWait wait = new WebDriverWait(driver,60);
-		wait.until(ExpectedConditions.elementToBeClickable(Account)).click();
+		//new WebDriverWait(driver, 60).until(ExpectedConditions.visibilityOf(Account));
+		Account.click();
         Logout.click();
         driver.quit();
 	}
-
 
 }
