@@ -28,8 +28,7 @@ public class Fun {
 		radio.click();
 		mobile.click();
 		start.click();
-
-		//driver.quit();
+driver.quit();
 	}
 	
 }
