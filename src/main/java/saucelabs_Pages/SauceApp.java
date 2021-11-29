@@ -4,7 +4,8 @@ package saucelabs_Pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class SauceApp {
 	
@@ -15,19 +16,18 @@ public class SauceApp {
 				this.driver= kdriver;
 			}
 			
-			@FindBy(xpath="") 	
-			WebElement SauceApps;
 			@FindBy(xpath="(//div[text()='Sauce Apps']/../..//following::*)[2]") 	
-			WebElement Visual;
+			WebElement SauceApps;
 			@FindBy(xpath="//a//div[contains(text(),'Visual')]") 	
-			WebElement Build;
+			WebElement Visual;
 			
-			//a//div[contains(text(),'Sauce Apps')]/../../..//*//*//*//*//*//*//..//..//..
 			public void checkFunctions() throws InterruptedException {
 				Thread.sleep(30000);
-				SauceApps.click();
+				
+				WebDriverWait wait = new WebDriverWait(driver,30);
+				wait.until(ExpectedConditions.elementToBeClickable(SauceApps)).click();
 				Visual.click();
-				//driver.quit();
+				driver.quit();
 			}
 			
 
