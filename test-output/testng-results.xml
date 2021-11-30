@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-29T17:09:01 IST" name="Default suite" finished-at="2021-11-29T17:11:00 IST" duration-ms="118743">
+  <suite started-at="2021-11-30T17:42:57 IST" name="Default suite" finished-at="2021-11-30T17:44:25 IST" duration-ms="87821">
     <groups>
     </groups>
-    <test started-at="2021-11-29T17:09:01 IST" name="Default test" finished-at="2021-11-29T17:11:00 IST" duration-ms="118743">
-      <class name="saucelabs_testcases.ZoneTest">
-        <test-method signature="checkSauce()[pri:0, instance:saucelabs_testcases.ZoneTest@28f2a10f]" started-at="2021-11-29T17:09:01 IST" name="checkSauce" finished-at="2021-11-29T17:11:00 IST" duration-ms="118538" status="PASS">
+    <test started-at="2021-11-30T17:42:57 IST" name="Default test" finished-at="2021-11-30T17:44:25 IST" duration-ms="87821">
+      <class name="saucelabs_testcases.SupportedIntegrationsTest">
+        <test-method signature="checkSol()[pri:0, instance:saucelabs_testcases.SupportedIntegrationsTest@28f2a10f]" started-at="2021-11-30T17:42:57 IST" name="checkSol" finished-at="2021-11-30T17:44:25 IST" duration-ms="87668" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkSauce -->
-      </class> <!-- saucelabs_testcases.ZoneTest -->
+        </test-method> <!-- checkSol -->
+      </class> <!-- saucelabs_testcases.SupportedIntegrationsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
