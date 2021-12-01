@@ -1,8 +1,6 @@
 package saucelabs_Pages;
 
-import java.util.ArrayList;
 import java.util.Set;
-import java.util.concurrent.TimeUnit;
 
 import java.util.Iterator;
 
