@@ -73,7 +73,8 @@ public class CompanyCareers {
   	    dropdown.click();
 	    List<WebElement> options =  selval;
    	    options.get(0).click();
-	    	    
+  	    dropdown.click();
+	    
 	
 	}
 	
