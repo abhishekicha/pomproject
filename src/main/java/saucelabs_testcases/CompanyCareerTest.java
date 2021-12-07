@@ -22,7 +22,7 @@ public class CompanyCareerTest {
 		//call the method
 		con.checkSolutions();
 		Thread.sleep(5000);
-		driver.quit();
+		driver.quit(); 
 
 	}
 

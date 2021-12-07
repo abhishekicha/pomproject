@@ -82,13 +82,13 @@ public class Contact {
 	    Thread.sleep(3000);
 	    cb2.click();
 	    JavascriptExecutor js3 = (JavascriptExecutor) driver;
-	    js3.executeScript("window.scrollBy(0,450)", "");
+	    js3.executeScript("window.scrollBy(0,420)", "");
 	    Thread.sleep(3000);
 	    text.sendKeys("nothing...");
 	    Thread.sleep(3000);
 	    consent.click();
 	    Thread.sleep(3000);
-	    submit.click();
+	    submit.click(); 
 	    
 
 

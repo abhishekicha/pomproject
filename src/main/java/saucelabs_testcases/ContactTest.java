@@ -12,7 +12,7 @@ public class ContactTest {
 
 	@Test
 	public void checkSol() throws InterruptedException {
-		//launch browser
+		//launch browser 
 		WebDriverManager.chromedriver().setup();
         ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
