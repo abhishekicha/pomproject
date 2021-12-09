@@ -9,7 +9,7 @@ import saucelabs_Pages.LoginPage;
 
 public class NavbarTest {
 
-	@Test
+	@Test 
 	public void checkSauce() throws InterruptedException {
 		//launch browser
 		WebDriverManager.chromedriver().setup();

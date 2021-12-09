@@ -11,7 +11,7 @@ public class PlatformTest {
 	
 	
 	@Test
-	public void checkSol() throws InterruptedException {
+	public void checkSol() throws InterruptedException { 
 		//launch browser
 		WebDriverManager.chromedriver().setup();
         ChromeDriver driver = new ChromeDriver();

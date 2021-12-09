@@ -11,7 +11,7 @@ package saucelabs_testcases;
 	public class SauceappTest {
 
 		
-		@Test
+		@Test 
 		public void checkSauce() throws InterruptedException {
 			//launch browser
 			WebDriverManager.chromedriver().setup();

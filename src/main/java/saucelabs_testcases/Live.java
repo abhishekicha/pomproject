@@ -10,7 +10,7 @@ import saucelabs_Pages.LoginPage;
 public class Live {
 	@Test
 	public void checkLive() throws InterruptedException {
-		//launch browser
+		//launch browser 
 		WebDriverManager.chromedriver().setup();
         ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();

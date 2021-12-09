@@ -9,7 +9,7 @@ import saucelabs_Pages.TryItFree;
 
 public class TryItFreeTest {
 	
-
+ 
 	@Test
 	public void checkSol() throws InterruptedException {
 		//launch browser

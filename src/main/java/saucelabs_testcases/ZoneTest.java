@@ -9,7 +9,7 @@ import saucelabs_Pages.LoginPage;
 
 public class ZoneTest {
 
-	@Test
+	@Test 
 	public void checkSauce() throws InterruptedException {
 		//launch browser
 		WebDriverManager.chromedriver().setup();

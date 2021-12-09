@@ -12,7 +12,7 @@ import saucelabs_Pages.LoginPage;
 public class FuncionalityTest {
 	@Test
 	public void checkFunctions() throws InterruptedException {
-	
+	 
 	//launch browser
 			WebDriverManager.chromedriver().setup();
 	        ChromeDriver driver = new ChromeDriver();

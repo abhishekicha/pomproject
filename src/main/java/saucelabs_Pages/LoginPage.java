@@ -19,6 +19,7 @@ public class LoginPage {
 WebElement Username;
 	
 	@FindBy(how=How.XPATH, using="//*[@id=\"idToken2\"]")  WebElement Password;
+
 	@FindBy(how=How.XPATH, using="//*[@id=\"loginButton_0\"]")  WebElement Login;
 	
 	

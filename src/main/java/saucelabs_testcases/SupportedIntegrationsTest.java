@@ -12,7 +12,7 @@ public class SupportedIntegrationsTest {
 	@Test
 	public void checkSol() throws InterruptedException {
 		//launch browser
-		WebDriverManager.chromedriver().setup();
+		WebDriverManager.chromedriver().setup(); 
         ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://saucelabs.com/");

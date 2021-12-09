@@ -14,7 +14,7 @@ public class PricingTest {
 	public void checkSol() throws InterruptedException {
 		//launch browser
 		WebDriverManager.chromedriver().setup();
-        ChromeDriver driver = new ChromeDriver();
+        ChromeDriver driver = new ChromeDriver(); 
 		driver.manage().window().maximize();
 		driver.get("https://saucelabs.com/");
 		

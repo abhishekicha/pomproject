@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-07T18:13:49 IST" name="Default suite" finished-at="2021-12-07T18:15:33 IST" duration-ms="104511">
+  <suite started-at="2021-12-09T18:10:10 IST" name="Default suite" finished-at="2021-12-09T18:12:07 IST" duration-ms="117671">
     <groups>
     </groups>
-    <test started-at="2021-12-07T18:13:49 IST" name="Default test" finished-at="2021-12-07T18:15:33 IST" duration-ms="104511">
-      <class name="saucelabs_testcases.ContactTest">
-        <test-method signature="checkSol()[pri:0, instance:saucelabs_testcases.ContactTest@28f2a10f]" started-at="2021-12-07T18:13:49 IST" name="checkSol" finished-at="2021-12-07T18:15:33 IST" duration-ms="104267" status="PASS">
+    <test started-at="2021-12-09T18:10:10 IST" name="Default test" finished-at="2021-12-09T18:12:07 IST" duration-ms="117671">
+      <class name="saucelabs_testcases.ContinuosTest">
+        <test-method signature="checkSol()[pri:0, instance:saucelabs_testcases.ContinuosTest@28f2a10f]" started-at="2021-12-09T18:10:10 IST" name="checkSol" finished-at="2021-12-09T18:12:07 IST" duration-ms="117523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSol -->
-      </class> <!-- saucelabs_testcases.ContactTest -->
+      </class> <!-- saucelabs_testcases.ContinuosTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -17,7 +17,7 @@ public class VerifyValidLogin {
 		WebDriverManager.chromedriver().setup();
         ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://saucelabs.com/");
+		driver.get("https://saucelabs.com/"); 
 		
 		//created page object using page factory
 		LoginPage login_page = PageFactory.initElements(driver, LoginPage.class);

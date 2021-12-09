@@ -16,7 +16,7 @@ public class SolutionsTest {
 		WebDriverManager.chromedriver().setup();
         ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://saucelabs.com/");
+		driver.get("https://saucelabs.com/"); 
 		
 		//created page object using page factory
 		Solutions sol = PageFactory.initElements(driver, Solutions.class);
