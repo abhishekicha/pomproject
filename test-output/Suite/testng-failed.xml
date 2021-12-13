@@ -6,11 +6,16 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="saucelabs_testcases.ContinuosTest">
+      <class name="saucelabs_testcases.ZoneTest">
         <methods>
-          <include name="checkSol"/>
+          <include name="checkSauce"/>
         </methods>
-      </class> <!-- saucelabs_testcases.ContinuosTest -->
+      </class> <!-- saucelabs_testcases.ZoneTest -->
+      <class name="saucelabs_testcases.UsageTest">
+        <methods>
+          <include name="checkSauce"/>
+        </methods>
+      </class> <!-- saucelabs_testcases.UsageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

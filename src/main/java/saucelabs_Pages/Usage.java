@@ -21,11 +21,13 @@ public class Usage {
 	WebElement logo;
 	@FindBy(xpath="//button[@class='Buttons__btn__3yodQ SidebarToggleV2__wrapper__2pC4J Buttons__btn-action-inv__Np8dr']/*") 	
 	WebElement nav;
+	@FindBy(xpath="//div[@class='beamerAnnouncementSnippetClose']") WebElement alerts;
 	
-	public void checkUsage() throws InterruptedException {
+	public void checkUsage() throws  InterruptedException {
 		Thread.sleep(30000);
 		WebDriverWait wait = new WebDriverWait(driver,30);
 		wait.until(ExpectedConditions.elementToBeClickable(Tunnels)).click();
+		alerts.click();
 		Usage.click();
 		Thread.sleep(5000);
 		logo.click();
