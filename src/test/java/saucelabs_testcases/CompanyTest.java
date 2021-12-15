@@ -3,6 +3,7 @@ package saucelabs_testcases;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
@@ -26,10 +27,10 @@ public class CompanyTest {
 		Thread.sleep(1000);
 
 	}
-	@AfterTest
+	   @AfterMethod
 	  public void teardown()
 	  {
-		BrowserFactory.close();
+		BrowserFactory.quit();
 	  }
 
 }

@@ -144,44 +144,10 @@
                   <a name="checkUsageTest">
                   </a> <!-- checkUsageTest -->
                   <span class="method-name">checkUsageTest</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //a[@href=&apos;/tunnkels&apos;]&apos; (tried for 30 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at saucelabs_Pages.Usage.checkUsage(Usage.java:34)
-	at saucelabs_testcases.UsageTest.checkUsageTest(UsageTest.java:37)
+                  <div class="stack-trace">java.lang.AssertionError: Write your custom error message
+	at saucelabs_testcases.UsageTest.checkUsageTest(UsageTest.java:41)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&apos;/tunnkels&apos;]&quot;}
-  (Session info: chrome=96.0.4664.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
-System info: host: &apos;ABBY&apos;, ip: &apos;169.254.150.134&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f677499f69a01030bfb3b7f65e22adbe, findElement {using=xpath, value=//a[@href=&apos;/tunnkels&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ACER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64380}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64380/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f677499f69a01030bfb3b7f65e22adbe
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy16.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-	... 30 more
-... Removed 30 stack frames
+... Removed 28 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -217,8 +183,8 @@ Session ID: f677499f69a01030bfb3b7f65e22adbe
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;saucelabs_testcases.UsageTest&quot;/&gt;
       &lt;class name=&quot;saucelabs_testcases.ZoneTest&quot;/&gt;
+      &lt;class name=&quot;saucelabs_testcases.UsageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -260,13 +226,13 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'checkUsageTest')
-data.setCell(0, 2, 'saucelabs_testcases.UsageTest')
-data.setCell(0, 3, 107379);
+data.setCell(0, 1, 'checkZontTest')
+data.setCell(0, 2, 'saucelabs_testcases.ZoneTest')
+data.setCell(0, 3, 99298);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'checkZontTest')
-data.setCell(1, 2, 'saucelabs_testcases.ZoneTest')
-data.setCell(1, 3, 98060);
+data.setCell(1, 1, 'checkUsageTest')
+data.setCell(1, 2, 'saucelabs_testcases.UsageTest')
+data.setCell(1, 3, 96283);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -297,36 +263,28 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">saucelabs_testcases.ZoneTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkZontTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">99393 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">saucelabs_testcases.UsageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">checkUsageTest</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">101564 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">saucelabs_testcases.ZoneTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">checkZontTest</span>
-                <span class="method-start">109312 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">saucelabs_testcases.UsageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test after">
+              <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">207387 ms</span>
-              </div> <!-- configuration-test after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">saucelabs_testcases.ZoneTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">teardown</span>
-                <span class="method-start">209321 ms</span>
-              </div> <!-- configuration-test after -->
+                <span class="method-start">198279 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

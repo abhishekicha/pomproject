@@ -1,31 +1,27 @@
 package saucelabs_testcases;
 
-import java.io.File;
 import java.io.IOException;
 
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 import helper.BrowserFactory;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import saucelabs_Pages.Usage;
 import saucelabs_Pages.LoginPage;
 
 public class UsageTest  {
+	
+	
 	
 	@Test
 	public void checkUsageTest()  throws InterruptedException, IOException  {
 		//launch browser
 		WebDriver driver =	BrowserFactory.startBrowser("chrome", "https://saucelabs.com/");
 
-		
 //		try{
 		//created page object using page factory 
 		LoginPage login_page = PageFactory.initElements(driver, LoginPage.class);
@@ -41,11 +37,16 @@ public class UsageTest  {
 //	    FileUtils.copyFile(screenshotFile, new File("C:\\Users\\ACER\\eclipse-workspace\\Pom\\screenshots"
 //	    		+ "\\SoftwareTestingMaterial8.png"));
 //	}
+
+		Assert.fail("Write your custom error message");
+
 	}
 
-	@AfterTest
+	  @AfterMethod
 	  public void teardown()
 	  {
-		BrowserFactory.close();
+		BrowserFactory.quit();
 	  }
+	
+	
 }

@@ -13,11 +13,11 @@ public class Usage {
 		this.driver= kdriver;
 	}
 	
-//	@FindBy(xpath="//a[@href='/tunnels']") 	
-//	WebElement Tunnels;
-	
-	@FindBy(xpath="//a[@href='/tunnkels']") 	
+	@FindBy(xpath="//a[@href='/tunnels']") 	
 	WebElement Tunnels;
+	
+//	@FindBy(xpath="//a[@href='/tunnkels']") 	
+//	WebElement Tunnels;
 	
 	@FindBy(xpath="//div[text()='Usage']") 	
 	WebElement Usage;

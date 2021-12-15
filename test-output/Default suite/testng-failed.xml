@@ -5,7 +5,8 @@
     <classes>
       <class name="saucelabs_testcases.UsageTest">
         <methods>
-          <include name="checkSauce"/>
+          <include name="teardown"/>
+          <include name="checkUsageTest"/>
         </methods>
       </class> <!-- saucelabs_testcases.UsageTest -->
     </classes>

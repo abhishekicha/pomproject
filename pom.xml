@@ -38,6 +38,22 @@
     <artifactId>extentreports</artifactId>
     <version>3.1.5</version>
 </dependency>
-   
+   <dependency>
+    <groupId>org.uncommons</groupId>
+    <artifactId>reportng</artifactId>
+    <version>1.1.4</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+			<groupId>com.beust</groupId>
+			<artifactId>jcommander</artifactId>
+			<version>1.81</version>
+		</dependency>
+		<dependency>
+    <groupId>com.google.inject</groupId>
+    <artifactId>guice</artifactId>
+    <version>5.0.1</version>
+</dependency>
+
   </dependencies>
 </project>
