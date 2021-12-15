@@ -21,7 +21,7 @@ public class Platform {
 	@FindBy(xpath="//a[text()='Sign in']") 	
 	WebElement Signin;
 	
-	public void checkSolutions() throws InterruptedException {
+	public void checkPlatformSolutions() throws InterruptedException {
 		Actions actions = new Actions(driver);
         WebElement menuOption = Platform;
     	actions.moveToElement(menuOption).perform();

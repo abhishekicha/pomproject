@@ -13,8 +13,12 @@ public class Usage {
 		this.driver= kdriver;
 	}
 	
-	@FindBy(xpath="//a[@href='/tunnels']") 	
+//	@FindBy(xpath="//a[@href='/tunnels']") 	
+//	WebElement Tunnels;
+	
+	@FindBy(xpath="//a[@href='/tunnkels']") 	
 	WebElement Tunnels;
+	
 	@FindBy(xpath="//div[text()='Usage']") 	
 	WebElement Usage;
 	@FindBy(xpath="//span[@class='SidebarLogoPanelV2__logo__2PUWQ']") 	
@@ -25,16 +29,15 @@ public class Usage {
 	
 	public void checkUsage() throws  InterruptedException {
 		Thread.sleep(30000);
+		alerts.click();
 		WebDriverWait wait = new WebDriverWait(driver,30);
 		wait.until(ExpectedConditions.elementToBeClickable(Tunnels)).click();
-		alerts.click();
 		Usage.click();
 		Thread.sleep(5000);
 		logo.click();
 		Thread.sleep(5000);
 		nav.click();
 		Thread.sleep(5000);
-		driver.quit();
 	}
 	
 

@@ -25,7 +25,6 @@ public class LiveButton {
 		Live.click();
 		TestResults.click();
 		crossbrowser.click();
-		driver.quit();
 	}
 	
 

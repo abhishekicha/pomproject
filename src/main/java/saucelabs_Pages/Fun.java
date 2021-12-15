@@ -17,7 +17,7 @@ public class Fun {
 	WebElement GetStarted;
 	@FindBy(xpath="//label[@for='manualTesting']//../../input") 	
 	WebElement radio;
-	@FindBy(xpath="//span[contains(text(),'Mobile app')]\r\n") 	
+	@FindBy(xpath="//span[contains(text(),'Mobile app')]") 	
 	WebElement mobile;
 	@FindBy(xpath="//div[@class='RecentAndSavedConfigs__test-start__2mGhE']//button") 	
 	WebElement start;
@@ -28,7 +28,6 @@ public class Fun {
 		radio.click();
 		mobile.click();
 		start.click();
-driver.quit();
 	}
 	
 }

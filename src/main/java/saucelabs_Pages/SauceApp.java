@@ -21,13 +21,12 @@ public class SauceApp {
 			@FindBy(xpath="//a//div[contains(text(),'Visual')]") 	
 			WebElement Visual;
 			
-			public void checkFunctions() throws InterruptedException {
+			public void checkSauceFunctions() throws InterruptedException {
 				Thread.sleep(30000);
 				
 				WebDriverWait wait = new WebDriverWait(driver,30);
 				wait.until(ExpectedConditions.elementToBeClickable(SauceApps)).click();
 				Visual.click();
-				driver.quit();
 			}
 			
 

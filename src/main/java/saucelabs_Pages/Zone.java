@@ -18,12 +18,11 @@ public class Zone {
 	@FindBy(xpath="(//li[@class='DCMenuListV2__item__3_L13']//a/ancestor-or-self::div[@class='DCMenuListV2__container__xV3ff']//a[text()='US West 1'])[2]") 	
 	WebElement ZonesSelect;
 	
-	public void checkUsage() throws InterruptedException {
+	public void checkZone() throws InterruptedException {
 		Thread.sleep(30000);
 		WebDriverWait wait = new WebDriverWait(driver,30);
 		wait.until(ExpectedConditions.elementToBeClickable(Zones)).click();
 		wait.until(ExpectedConditions.elementToBeClickable(ZonesSelect)).click();
-		driver.quit();
 		
 	}
 	

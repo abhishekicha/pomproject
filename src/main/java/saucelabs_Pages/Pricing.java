@@ -35,7 +35,7 @@ public class Pricing {
 	
 	
 	
-	public void checkSolutions() throws InterruptedException {
+	public void checkPricingSolutions() throws InterruptedException {
 		Pricing.click();
 		Thread.sleep(7000);
 		Plan.click();

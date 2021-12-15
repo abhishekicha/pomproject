@@ -44,7 +44,7 @@ public class CompanyCareers {
 	List<WebElement> selval;
 	
 	
-	public void checkSolutions() throws InterruptedException {
+	public void checkCareerSolutions() throws InterruptedException {
 		
 		Actions actions = new Actions(driver);
         WebElement menuOption = Company;

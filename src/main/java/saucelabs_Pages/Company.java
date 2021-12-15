@@ -24,7 +24,7 @@ public class Company {
 	@FindBy(xpath="//a//span[text()= 'View data sheet']") 	
 	WebElement data;
 	
-	public void checkSolutions() throws InterruptedException {
+	public void checkCompanySolutions() throws InterruptedException {
 		Actions actions = new Actions(driver);
         WebElement menuOption = Pricing;
     	actions.moveToElement(menuOption).perform();

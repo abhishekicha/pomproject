@@ -19,13 +19,12 @@ public class Automated {
 		WebElement Build;
 		
 		
-		public void checkFunctions() throws InterruptedException {
+		public void checkAutomated() throws InterruptedException {
 			Thread.sleep(30000);
 			Automated.click();
 			Automated.click();
 			TestResults.click();
 			Build.click();
-			driver.quit();
 		}
 		
 

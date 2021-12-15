@@ -42,7 +42,7 @@ public class Navbar {
 		wait.until(ExpectedConditions.elementToBeClickable(Help)).click();
 		StatusPage.click();
 	    driver.switchTo().window(newTab.get(0));
-		driver.quit();
+		
 	}
 	
 

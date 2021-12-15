@@ -27,7 +27,7 @@ public class SupportedIntegrations {
 	@FindBy(xpath="//span[text()='Sign In']") 	
 	WebElement Signin;
 	
-	public void checkSolutions() throws InterruptedException {
+	public void checkSupportedIntegrationsSolutions() throws InterruptedException {
 		Actions actions = new Actions(driver);
         WebElement menuOption = Platform;
     	actions.moveToElement(menuOption).perform();

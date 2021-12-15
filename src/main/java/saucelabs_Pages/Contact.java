@@ -47,7 +47,7 @@ public class Contact {
 	WebElement submit;
 	
 	
-	public void checkSolutions() throws InterruptedException {
+	public void checkContact() throws InterruptedException {
 		Actions actions = new Actions(driver);
         WebElement menuOption = Contact;
     	actions.moveToElement(menuOption).perform();

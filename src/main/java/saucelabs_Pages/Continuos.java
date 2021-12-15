@@ -23,7 +23,7 @@ public class Continuos {
 	WebElement Signin;
 	
 	
-	public void checkSolutions() throws InterruptedException {
+	public void checkContinuosSolutions() throws InterruptedException {
 		Actions actions = new Actions(driver);
         WebElement menuOption = Solutions;
     	actions.moveToElement(menuOption).perform();

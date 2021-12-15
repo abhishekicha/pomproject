@@ -1,5 +1,11 @@
 package helper;
 
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -10,7 +16,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BrowserFactory {
 	
-	static WebDriver driver;
+	public static WebDriver driver;
+	
 	
 	public static  WebDriver startBrowser(String browserName, String url) {
 		
@@ -32,7 +39,23 @@ public class BrowserFactory {
 		driver.manage().window().maximize();
 		driver.get(url);
 		
+		
 		return driver;
+		
 	}
+	
+	 public static void quit()
+	   {
+	      driver.quit();
+	      driver=null; // we destroy the driver object after quit operation
+	   }
+	   public static void close()
+	   {
+	      driver.close();
+	      driver=null;  // we destroy the driver object after quit operation
+	   }   
 
+
+
+	
 }

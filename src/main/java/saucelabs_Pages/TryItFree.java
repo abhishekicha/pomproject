@@ -16,7 +16,7 @@ public class TryItFree {
 	@FindBy(xpath="//a[text()='Sign in']") 	
 	WebElement Signin;
 	
-	public void checkSolutions() throws InterruptedException {
+	public void checkTryitFreeSolutions() throws InterruptedException {
 		
 		Try.click();
 		Thread.sleep(7000);
