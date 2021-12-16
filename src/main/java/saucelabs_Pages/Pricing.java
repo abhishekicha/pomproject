@@ -48,10 +48,11 @@ public class Pricing {
 		Thread.sleep(3000);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,280)", "");
+		Thread.sleep(3000);
 		Drop.click();
 		Drop.sendKeys(Keys.ARROW_DOWN);
 		Drop.sendKeys(Keys.ENTER);
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		Monthly.click();
 		JavascriptExecutor jss = (JavascriptExecutor) driver;
 		jss.executeScript("window.scrollBy(0,450)", "");

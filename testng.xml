@@ -14,7 +14,7 @@
         </groups>
     <classes>
        <class name="saucelabs_testcases.ZoneTest"/>
-             <class name="saucelabs_testcases.UsageTest"/>       
+             <class name="saucelabs_testcases.PricingTest"/>       
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

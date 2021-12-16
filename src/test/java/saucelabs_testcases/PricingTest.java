@@ -15,7 +15,7 @@ import saucelabs_Pages.SolutionsLogin;
 public class PricingTest {
 	
 	
-	@Test (groups = { "sanity", "smoke" })
+	@Test (groups = { "regression" })
 	public void checkPricing() throws InterruptedException {
 		//launch browser
 		WebDriver driver =	BrowserFactory.startBrowser("chrome", "https://saucelabs.com/");
