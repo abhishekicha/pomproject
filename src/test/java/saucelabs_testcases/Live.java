@@ -13,7 +13,7 @@ import saucelabs_Pages.LoginPage;
 
 
 public class Live {
-	@Test
+	@Test(groups = { "sanity", "smoke" })
 	public void checkLive() throws InterruptedException {
 		//launch browser 
 		WebDriver driver =	BrowserFactory.startBrowser("chrome", "https://saucelabs.com/");
@@ -27,7 +27,7 @@ public class Live {
 		live_button.checkLive();
 	}
 
-	  @AfterMethod
+	  @AfterMethod(alwaysRun = true)
 	  public void teardown()
 	  {
 		BrowserFactory.quit();

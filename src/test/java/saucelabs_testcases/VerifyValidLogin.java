@@ -14,7 +14,7 @@ import saucelabs_Pages.LoginPage;
 
 public class VerifyValidLogin {
 
-	@Test
+	@Test(groups = {  "regression" })
 	public void checkValidUser() throws InterruptedException {
 		//launch browser
 		WebDriver driver =	BrowserFactory.startBrowser("chrome", "https://saucelabs.com/");
@@ -30,7 +30,7 @@ public class VerifyValidLogin {
 
 	}
 
-	  @AfterMethod
+	  @AfterMethod(alwaysRun = true)
 	  public void teardown()
 	  {
 		BrowserFactory.quit();

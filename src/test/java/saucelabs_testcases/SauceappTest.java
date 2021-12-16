@@ -16,7 +16,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 	public class SauceappTest {
 
 		
-		@Test 
+		@Test (groups = { "sanity", "smoke" })
 		public void checkSauce() throws InterruptedException {
 			//launch browser
 			WebDriver driver =	BrowserFactory.startBrowser("chrome", "https://saucelabs.com/");
@@ -31,7 +31,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 			automated.checkSauceFunctions();
 		}
 
-		  @AfterMethod
+		  @AfterMethod(alwaysRun = true)
 		  public void teardown()
 		  {
 			BrowserFactory.quit();

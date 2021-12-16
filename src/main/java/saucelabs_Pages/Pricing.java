@@ -54,7 +54,7 @@ public class Pricing {
 		Thread.sleep(3000);
 		Monthly.click();
 		JavascriptExecutor jss = (JavascriptExecutor) driver;
-		jss.executeScript("window.scrollBy(0,420)", "");
+		jss.executeScript("window.scrollBy(0,450)", "");
 		Thread.sleep(2000);
 		GetStarted.click();
 		Thread.sleep(7000);

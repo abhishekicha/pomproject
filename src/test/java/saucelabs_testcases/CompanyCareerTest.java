@@ -14,7 +14,7 @@ import saucelabs_Pages.CompanyCareers;
 
 public class CompanyCareerTest {
 	
-	@Test
+	@Test (groups = { "sanity", "smoke" })
 	public void checkCareer() throws InterruptedException {
 		//launch browser
 		
@@ -28,7 +28,7 @@ public class CompanyCareerTest {
 
 	}
 
-	  @AfterMethod
+	  @AfterMethod(alwaysRun = true)
 	  public void teardown()
 	  {
 		BrowserFactory.quit();

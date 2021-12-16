@@ -13,7 +13,7 @@ import saucelabs_Pages.Fun;
 import saucelabs_Pages.LoginPage;
 
 public class FuncionalityTest {
-	@Test
+	@Test(groups = { "sanity", "smoke" })
 	public void checkFunctions() throws InterruptedException {
 	 
 		//launch browser
@@ -29,7 +29,7 @@ public class FuncionalityTest {
 
 	}
 	
-	  @AfterMethod
+	  @AfterMethod(alwaysRun = true)
 	  public void teardown()
 	  {
 		BrowserFactory.quit();

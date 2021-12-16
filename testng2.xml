@@ -7,6 +7,20 @@
   <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
 </listeners>
   <test thread-count="5" name="Test">
+   <groups>
+   	<define name="g1">
+	   	<include name = "sanity">
+	    </include>
+	    <include name = "smoke">
+	     </include>
+   		</define>
+	            <run>
+	                <include name = "g1">
+	                </include>
+	                <exclude name="regression">
+	    			 </exclude>
+	            </run>
+        </groups>
     <packages>
       <package name="saucelabs_testcases"/>
     </packages>

@@ -14,7 +14,7 @@ import saucelabs_Pages.LoginPage;
 
 public class NavbarTest {
 
-	@Test 
+	@Test (groups = { "sanity", "smoke" })
 	public void checkNav() throws InterruptedException {
 		//launch browser
 		WebDriver driver =	BrowserFactory.startBrowser("chrome", "https://saucelabs.com/");
@@ -29,7 +29,7 @@ public class NavbarTest {
 		nav.checkNavbar();
 	}
 	
-	   @AfterMethod
+	   @AfterMethod(alwaysRun = true)
 	  public void teardown()
 	  {
 		BrowserFactory.quit();

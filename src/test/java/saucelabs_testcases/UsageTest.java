@@ -17,7 +17,7 @@ public class UsageTest  {
 	
 	
 	
-	@Test
+	@Test(groups = { "sanity", "smoke" })
 	public void checkUsageTest()  throws InterruptedException, IOException  {
 		//launch browser
 		WebDriver driver =	BrowserFactory.startBrowser("chrome", "https://saucelabs.com/");
@@ -42,7 +42,7 @@ public class UsageTest  {
 
 	}
 
-	  @AfterMethod
+	  @AfterMethod(alwaysRun = true)
 	  public void teardown()
 	  {
 		BrowserFactory.quit();

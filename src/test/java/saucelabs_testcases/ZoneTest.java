@@ -12,7 +12,7 @@ import saucelabs_Pages.LoginPage;
 
 public class ZoneTest {
 
-	@Test 
+	@Test (groups = {  "regression" })
 	public void checkZontTest() throws InterruptedException {
 		//launch browser
 		WebDriver driver =	BrowserFactory.startBrowser("chrome", "https://saucelabs.com/");
@@ -27,7 +27,7 @@ public class ZoneTest {
 		use.checkZone();
 	}
 	
-	  @AfterMethod
+	  @AfterMethod(alwaysRun = true)
 	  public void teardown()
 	  {
 		BrowserFactory.quit();

@@ -13,7 +13,7 @@ import saucelabs_Pages.LoginPage;
 
 public class AutomatedTest {
 	
-	@Test
+	@Test (groups = { "sanity" })
 	public void checkAutomated() throws InterruptedException {
 		//launch browser
 		
@@ -29,7 +29,7 @@ public class AutomatedTest {
 		automated.checkAutomated();
 	}
 
-	  @AfterMethod
+	  @AfterMethod(alwaysRun = true)
 	  public void teardown()
 	  {
 		BrowserFactory.quit();

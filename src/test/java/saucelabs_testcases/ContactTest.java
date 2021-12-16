@@ -15,7 +15,7 @@ import saucelabs_Pages.Contact;
 public class ContactTest {
 
 
-	@Test
+	@Test(groups = { "sanity", "smoke" })
 	public void checkContact() throws InterruptedException {
 		//launch browser 
 		WebDriver driver =	BrowserFactory.startBrowser("chrome", "https://saucelabs.com/");
@@ -28,7 +28,7 @@ public class ContactTest {
 		Thread.sleep(1000);
 
 	}
-	   @AfterMethod
+	   @AfterMethod(alwaysRun = true)
 	  public void teardown()
 	  {
 		BrowserFactory.quit();

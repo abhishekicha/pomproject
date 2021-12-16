@@ -13,7 +13,7 @@ import saucelabs_Pages.Company;
 
 public class CompanyTest {
 	
-	@Test
+	@Test(groups = {  "smoke" })
 	public void checkCom() throws InterruptedException {
 		//launch browser
 
@@ -27,7 +27,7 @@ public class CompanyTest {
 		Thread.sleep(1000);
 
 	}
-	   @AfterMethod
+	   @AfterMethod(alwaysRun = true)
 	  public void teardown()
 	  {
 		BrowserFactory.quit();

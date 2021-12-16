@@ -5,6 +5,13 @@
 <listener class-name = "listeners.TestListener"/>
 </listeners>
   <test thread-count="5" name="Test">
+    <groups>
+	            <run>
+	                <include name = "regression">
+	                </include>
+	                
+	            </run>
+        </groups>
     <classes>
        <class name="saucelabs_testcases.ZoneTest"/>
              <class name="saucelabs_testcases.UsageTest"/>       

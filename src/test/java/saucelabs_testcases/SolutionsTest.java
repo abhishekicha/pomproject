@@ -15,7 +15,7 @@ import saucelabs_Pages.SolutionsLogin;
 public class SolutionsTest {
 	
 	
-	@Test
+	@Test(groups = { "sanity", "smoke" })
 	public void checkSol() throws InterruptedException {
 		//launch browser
 		WebDriver driver =	BrowserFactory.startBrowser("chrome", "https://saucelabs.com/");
@@ -34,7 +34,7 @@ public class SolutionsTest {
 
 	}
 	
-	  @AfterMethod
+	  @AfterMethod(alwaysRun = true)
 	  public void teardown()
 	  {
 		BrowserFactory.quit();

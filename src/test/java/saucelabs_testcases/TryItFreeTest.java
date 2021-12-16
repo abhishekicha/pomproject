@@ -15,7 +15,7 @@ import saucelabs_Pages.TryItFree;
 public class TryItFreeTest {
 	
  
-	@Test
+	@Test(groups = { "sanity", "smoke" })
 	public void checkTrySol() throws InterruptedException {
 		//launch browser
 		WebDriver driver =	BrowserFactory.startBrowser("chrome", "https://saucelabs.com/");
@@ -31,7 +31,7 @@ public class TryItFreeTest {
 
 	}
 
-	  @AfterMethod
+	  @AfterMethod(alwaysRun = true)
 	  public void teardown()
 	  {
 		BrowserFactory.quit();

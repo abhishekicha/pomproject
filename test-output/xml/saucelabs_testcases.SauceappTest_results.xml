@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="63.998">
+  <properties />
+  
+  
+            <testcase name="checkSauce" time="63.998" classname="saucelabs_testcases.SauceappTest" />
+      
+</testsuite>
