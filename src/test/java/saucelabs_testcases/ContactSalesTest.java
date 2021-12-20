@@ -12,7 +12,7 @@ import saucelabs_Pages.ContactSales;
 public class ContactSalesTest {
 	
 	@Test(groups = { "regression" })
-	public void checkTryHomeTestSol() throws InterruptedException {
+	public void checkContactSalesTestSol() throws InterruptedException {
 		//launch browser
 		WebDriver driver =	BrowserFactory.startBrowser("chrome", "https://saucelabs.com/");
 
