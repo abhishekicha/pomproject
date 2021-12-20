@@ -1,220 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="17" passed="13" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-20T11:28:31 IST" name="Suite" finished-at="2021-12-20T11:43:02 IST" duration-ms="871386">
+  <suite started-at="2021-12-20T16:21:31 IST" name="Suite" finished-at="2021-12-20T16:27:28 IST" duration-ms="356878">
     <groups>
-      <group name="smoke">
-        <method signature="CompanyCareerTest.checkCareer()[pri:0, instance:saucelabs_testcases.CompanyCareerTest@69c81773]" name="checkCareer" class="saucelabs_testcases.CompanyCareerTest"/>
-        <method signature="CompanyTest.checkCom()[pri:0, instance:saucelabs_testcases.CompanyTest@4d14b6c2]" name="checkCom" class="saucelabs_testcases.CompanyTest"/>
-        <method signature="ContactTest.checkContact()[pri:0, instance:saucelabs_testcases.ContactTest@7e990ed7]" name="checkContact" class="saucelabs_testcases.ContactTest"/>
-        <method signature="ContinuosTest.checkContinuous()[pri:0, instance:saucelabs_testcases.ContinuosTest@c05fddc]" name="checkContinuous" class="saucelabs_testcases.ContinuosTest"/>
-        <method signature="FuncionalityTest.checkFunctions()[pri:0, instance:saucelabs_testcases.FuncionalityTest@25df00a0]" name="checkFunctions" class="saucelabs_testcases.FuncionalityTest"/>
-        <method signature="Live.checkLive()[pri:0, instance:saucelabs_testcases.Live@4d15107f]" name="checkLive" class="saucelabs_testcases.Live"/>
-        <method signature="NavbarTest.checkNav()[pri:0, instance:saucelabs_testcases.NavbarTest@50378a4]" name="checkNav" class="saucelabs_testcases.NavbarTest"/>
-        <method signature="PlatformTest.checkPlatform()[pri:0, instance:saucelabs_testcases.PlatformTest@60f00693]" name="checkPlatform" class="saucelabs_testcases.PlatformTest"/>
-        <method signature="SauceappTest.checkSauce()[pri:0, instance:saucelabs_testcases.SauceappTest@491b9b8]" name="checkSauce" class="saucelabs_testcases.SauceappTest"/>
-        <method signature="SolutionsTest.checkSol()[pri:0, instance:saucelabs_testcases.SolutionsTest@1a4927d6]" name="checkSol" class="saucelabs_testcases.SolutionsTest"/>
-        <method signature="SupportedIntegrationsTest.checkIntegrations()[pri:0, instance:saucelabs_testcases.SupportedIntegrationsTest@7a6d7e92]" name="checkIntegrations" class="saucelabs_testcases.SupportedIntegrationsTest"/>
-        <method signature="TryItFreeTest.checkTrySol()[pri:0, instance:saucelabs_testcases.TryItFreeTest@aba625]" name="checkTrySol" class="saucelabs_testcases.TryItFreeTest"/>
-        <method signature="UsageTest.checkUsageTest()[pri:0, instance:saucelabs_testcases.UsageTest@97e93f1]" name="checkUsageTest" class="saucelabs_testcases.UsageTest"/>
-      </group> <!-- smoke -->
-      <group name="sanity">
-        <method signature="AutomatedTest.checkAutomated()[pri:0, instance:saucelabs_testcases.AutomatedTest@72bc6553]" name="checkAutomated" class="saucelabs_testcases.AutomatedTest"/>
-        <method signature="CompanyCareerTest.checkCareer()[pri:0, instance:saucelabs_testcases.CompanyCareerTest@69c81773]" name="checkCareer" class="saucelabs_testcases.CompanyCareerTest"/>
-        <method signature="ContactTest.checkContact()[pri:0, instance:saucelabs_testcases.ContactTest@7e990ed7]" name="checkContact" class="saucelabs_testcases.ContactTest"/>
-        <method signature="ContinuosTest.checkContinuous()[pri:0, instance:saucelabs_testcases.ContinuosTest@c05fddc]" name="checkContinuous" class="saucelabs_testcases.ContinuosTest"/>
-        <method signature="FuncionalityTest.checkFunctions()[pri:0, instance:saucelabs_testcases.FuncionalityTest@25df00a0]" name="checkFunctions" class="saucelabs_testcases.FuncionalityTest"/>
-        <method signature="Live.checkLive()[pri:0, instance:saucelabs_testcases.Live@4d15107f]" name="checkLive" class="saucelabs_testcases.Live"/>
-        <method signature="NavbarTest.checkNav()[pri:0, instance:saucelabs_testcases.NavbarTest@50378a4]" name="checkNav" class="saucelabs_testcases.NavbarTest"/>
-        <method signature="PlatformTest.checkPlatform()[pri:0, instance:saucelabs_testcases.PlatformTest@60f00693]" name="checkPlatform" class="saucelabs_testcases.PlatformTest"/>
-        <method signature="SauceappTest.checkSauce()[pri:0, instance:saucelabs_testcases.SauceappTest@491b9b8]" name="checkSauce" class="saucelabs_testcases.SauceappTest"/>
-        <method signature="SolutionsTest.checkSol()[pri:0, instance:saucelabs_testcases.SolutionsTest@1a4927d6]" name="checkSol" class="saucelabs_testcases.SolutionsTest"/>
-        <method signature="SupportedIntegrationsTest.checkIntegrations()[pri:0, instance:saucelabs_testcases.SupportedIntegrationsTest@7a6d7e92]" name="checkIntegrations" class="saucelabs_testcases.SupportedIntegrationsTest"/>
-        <method signature="TryItFreeTest.checkTrySol()[pri:0, instance:saucelabs_testcases.TryItFreeTest@aba625]" name="checkTrySol" class="saucelabs_testcases.TryItFreeTest"/>
-        <method signature="UsageTest.checkUsageTest()[pri:0, instance:saucelabs_testcases.UsageTest@97e93f1]" name="checkUsageTest" class="saucelabs_testcases.UsageTest"/>
-      </group> <!-- sanity -->
+      <group name="regression">
+        <method signature="ContactSalesTest.checkTryHomeTestSol()[pri:0, instance:saucelabs_testcases.ContactSalesTest@5a45133e]" name="checkTryHomeTestSol" class="saucelabs_testcases.ContactSalesTest"/>
+        <method signature="PricingTest.checkPricing()[pri:0, instance:saucelabs_testcases.PricingTest@942a29c]" name="checkPricing" class="saucelabs_testcases.PricingTest"/>
+        <method signature="TryItFreeHomeTest.checkTryHomeTestSol()[pri:0, instance:saucelabs_testcases.TryItFreeHomeTest@534a5a98]" name="checkTryHomeTestSol" class="saucelabs_testcases.TryItFreeHomeTest"/>
+        <method signature="VerifyValidLogin.checkValidUser()[pri:0, instance:saucelabs_testcases.VerifyValidLogin@1ed6388a]" name="checkValidUser" class="saucelabs_testcases.VerifyValidLogin"/>
+        <method signature="ZoneTest.checkZontTest()[pri:0, instance:saucelabs_testcases.ZoneTest@194bcebf]" name="checkZontTest" class="saucelabs_testcases.ZoneTest"/>
+      </group> <!-- regression -->
     </groups>
-    <test started-at="2021-12-20T11:28:31 IST" name="Test" finished-at="2021-12-20T11:43:02 IST" duration-ms="871386">
-      <class name="saucelabs_testcases.ContinuosTest">
-        <test-method signature="checkContinuous()[pri:0, instance:saucelabs_testcases.ContinuosTest@c05fddc]" started-at="2021-12-20T11:33:09 IST" name="checkContinuous" finished-at="2021-12-20T11:34:08 IST" duration-ms="59327" status="PASS">
+    <test started-at="2021-12-20T16:21:31 IST" name="Test" finished-at="2021-12-20T16:27:28 IST" duration-ms="356878">
+      <class name="saucelabs_testcases.VerifyValidLogin">
+        <test-method signature="checkValidUser()[pri:0, instance:saucelabs_testcases.VerifyValidLogin@1ed6388a]" started-at="2021-12-20T16:24:15 IST" name="checkValidUser" finished-at="2021-12-20T16:25:03 IST" duration-ms="48175" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkContinuous -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.ContinuosTest@c05fddc]" started-at="2021-12-20T11:34:08 IST" name="teardown" finished-at="2021-12-20T11:34:10 IST" duration-ms="1696" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- saucelabs_testcases.ContinuosTest -->
-      <class name="saucelabs_testcases.Live">
-        <test-method signature="checkLive()[pri:0, instance:saucelabs_testcases.Live@4d15107f]" started-at="2021-12-20T11:34:56 IST" name="checkLive" finished-at="2021-12-20T11:35:39 IST" duration-ms="43252" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkLive -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.Live@4d15107f]" started-at="2021-12-20T11:35:39 IST" name="teardown" finished-at="2021-12-20T11:35:42 IST" duration-ms="2560" status="PASS">
+        </test-method> <!-- checkValidUser -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.VerifyValidLogin@1ed6388a]" started-at="2021-12-20T16:25:03 IST" name="teardown" finished-at="2021-12-20T16:25:06 IST" duration-ms="3115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- saucelabs_testcases.Live -->
-      <class name="saucelabs_testcases.ContactTest">
-        <test-method signature="checkContact()[pri:0, instance:saucelabs_testcases.ContactTest@7e990ed7]" started-at="2021-12-20T11:31:58 IST" name="checkContact" finished-at="2021-12-20T11:33:07 IST" duration-ms="69159" status="PASS">
+      </class> <!-- saucelabs_testcases.VerifyValidLogin -->
+      <class name="saucelabs_testcases.ContactSalesTest">
+        <test-method signature="checkTryHomeTestSol()[pri:0, instance:saucelabs_testcases.ContactSalesTest@5a45133e]" started-at="2021-12-20T16:25:06 IST" name="checkTryHomeTestSol" finished-at="2021-12-20T16:26:31 IST" duration-ms="84964" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkContact -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.ContactTest@7e990ed7]" started-at="2021-12-20T11:33:07 IST" name="teardown" finished-at="2021-12-20T11:33:09 IST" duration-ms="1593" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- saucelabs_testcases.ContactTest -->
-      <class name="saucelabs_testcases.AutomatedTest">
-        <test-method signature="checkAutomated()[pri:0, instance:saucelabs_testcases.AutomatedTest@72bc6553]" started-at="2021-12-20T11:28:31 IST" name="checkAutomated" finished-at="2021-12-20T11:29:36 IST" duration-ms="64372" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkAutomated -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.AutomatedTest@72bc6553]" started-at="2021-12-20T11:29:36 IST" name="teardown" finished-at="2021-12-20T11:29:37 IST" duration-ms="1744" status="PASS">
+        </test-method> <!-- checkTryHomeTestSol -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.ContactSalesTest@5a45133e]" started-at="2021-12-20T16:26:31 IST" name="teardown" finished-at="2021-12-20T16:26:33 IST" duration-ms="1589" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- saucelabs_testcases.AutomatedTest -->
-      <class name="saucelabs_testcases.SauceappTest">
-        <test-method signature="checkSauce()[pri:0, instance:saucelabs_testcases.SauceappTest@491b9b8]" started-at="2021-12-20T11:37:54 IST" name="checkSauce" finished-at="2021-12-20T11:38:55 IST" duration-ms="60668" status="PASS">
+      </class> <!-- saucelabs_testcases.ContactSalesTest -->
+      <class name="saucelabs_testcases.TryItFreeHomeTest">
+        <test-method signature="checkTryHomeTestSol()[pri:0, instance:saucelabs_testcases.TryItFreeHomeTest@534a5a98]" started-at="2021-12-20T16:26:33 IST" name="checkTryHomeTestSol" finished-at="2021-12-20T16:27:25 IST" duration-ms="52913" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkSauce -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.SauceappTest@491b9b8]" started-at="2021-12-20T11:38:55 IST" name="teardown" finished-at="2021-12-20T11:38:57 IST" duration-ms="1468" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- saucelabs_testcases.SauceappTest -->
-      <class name="saucelabs_testcases.NavbarTest">
-        <test-method signature="checkNav()[pri:0, instance:saucelabs_testcases.NavbarTest@50378a4]" started-at="2021-12-20T11:35:42 IST" name="checkNav" finished-at="2021-12-20T11:36:50 IST" duration-ms="68014" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkNav -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.NavbarTest@50378a4]" started-at="2021-12-20T11:36:50 IST" name="teardown" finished-at="2021-12-20T11:36:52 IST" duration-ms="1783" status="PASS">
+        </test-method> <!-- checkTryHomeTestSol -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.TryItFreeHomeTest@534a5a98]" started-at="2021-12-20T16:27:25 IST" name="teardown" finished-at="2021-12-20T16:27:28 IST" duration-ms="2085" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- saucelabs_testcases.NavbarTest -->
-      <class name="saucelabs_testcases.SupportedIntegrationsTest">
-        <test-method signature="checkIntegrations()[pri:0, instance:saucelabs_testcases.SupportedIntegrationsTest@7a6d7e92]" started-at="2021-12-20T11:40:06 IST" name="checkIntegrations" finished-at="2021-12-20T11:41:02 IST" duration-ms="55947" status="PASS">
+      </class> <!-- saucelabs_testcases.TryItFreeHomeTest -->
+      <class name="saucelabs_testcases.ZoneTest">
+        <test-method signature="checkZontTest()[pri:0, instance:saucelabs_testcases.ZoneTest@194bcebf]" started-at="2021-12-20T16:21:31 IST" name="checkZontTest" finished-at="2021-12-20T16:22:48 IST" duration-ms="77048" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkIntegrations -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.SupportedIntegrationsTest@7a6d7e92]" started-at="2021-12-20T11:41:02 IST" name="teardown" finished-at="2021-12-20T11:41:03 IST" duration-ms="1389" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- saucelabs_testcases.SupportedIntegrationsTest -->
-      <class name="saucelabs_testcases.CompanyTest">
-        <test-method signature="checkCom()[pri:0, instance:saucelabs_testcases.CompanyTest@4d14b6c2]" started-at="2021-12-20T11:30:41 IST" name="checkCom" finished-at="2021-12-20T11:31:56 IST" duration-ms="75307" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkCom -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.CompanyTest@4d14b6c2]" started-at="2021-12-20T11:31:56 IST" name="teardown" finished-at="2021-12-20T11:31:58 IST" duration-ms="1773" status="PASS">
+        </test-method> <!-- checkZontTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.ZoneTest@194bcebf]" started-at="2021-12-20T16:22:48 IST" name="teardown" finished-at="2021-12-20T16:22:50 IST" duration-ms="1973" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- saucelabs_testcases.CompanyTest -->
-      <class name="saucelabs_testcases.UsageTest">
-        <test-method signature="checkUsageTest()[pri:0, instance:saucelabs_testcases.UsageTest@97e93f1]" started-at="2021-12-20T11:41:49 IST" name="checkUsageTest" finished-at="2021-12-20T11:43:00 IST" duration-ms="70905" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Write your custom error message]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Write your custom error message
-at org.testng.Assert.fail(Assert.java:99)
-at saucelabs_testcases.UsageTest.checkUsageTest(UsageTest.java:41)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+      </class> <!-- saucelabs_testcases.ZoneTest -->
+      <class name="saucelabs_testcases.PricingTest">
+        <test-method signature="checkPricing()[pri:0, instance:saucelabs_testcases.PricingTest@942a29c]" started-at="2021-12-20T16:22:50 IST" name="checkPricing" finished-at="2021-12-20T16:24:13 IST" duration-ms="82826" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkUsageTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.UsageTest@97e93f1]" started-at="2021-12-20T11:43:00 IST" name="teardown" finished-at="2021-12-20T11:43:02 IST" duration-ms="2018" status="PASS">
+        </test-method> <!-- checkPricing -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.PricingTest@942a29c]" started-at="2021-12-20T16:24:13 IST" name="teardown" finished-at="2021-12-20T16:24:15 IST" duration-ms="1875" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- saucelabs_testcases.UsageTest -->
-      <class name="saucelabs_testcases.PlatformTest">
-        <test-method signature="checkPlatform()[pri:0, instance:saucelabs_testcases.PlatformTest@60f00693]" started-at="2021-12-20T11:36:52 IST" name="checkPlatform" finished-at="2021-12-20T11:37:53 IST" duration-ms="61114" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkPlatform -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.PlatformTest@60f00693]" started-at="2021-12-20T11:37:53 IST" name="teardown" finished-at="2021-12-20T11:37:54 IST" duration-ms="1681" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- saucelabs_testcases.PlatformTest -->
-      <class name="saucelabs_testcases.TryItFreeTest">
-        <test-method signature="checkTrySol()[pri:0, instance:saucelabs_testcases.TryItFreeTest@aba625]" started-at="2021-12-20T11:41:03 IST" name="checkTrySol" finished-at="2021-12-20T11:41:48 IST" duration-ms="44188" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkTrySol -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.TryItFreeTest@aba625]" started-at="2021-12-20T11:41:48 IST" name="teardown" finished-at="2021-12-20T11:41:49 IST" duration-ms="1626" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- saucelabs_testcases.TryItFreeTest -->
-      <class name="saucelabs_testcases.SolutionsTest">
-        <test-method signature="checkSol()[pri:0, instance:saucelabs_testcases.SolutionsTest@1a4927d6]" started-at="2021-12-20T11:38:57 IST" name="checkSol" finished-at="2021-12-20T11:40:04 IST" duration-ms="67587" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkSol -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.SolutionsTest@1a4927d6]" started-at="2021-12-20T11:40:04 IST" name="teardown" finished-at="2021-12-20T11:40:06 IST" duration-ms="1775" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- saucelabs_testcases.SolutionsTest -->
-      <class name="saucelabs_testcases.FuncionalityTest">
-        <test-method signature="checkFunctions()[pri:0, instance:saucelabs_testcases.FuncionalityTest@25df00a0]" started-at="2021-12-20T11:34:10 IST" name="checkFunctions" finished-at="2021-12-20T11:34:54 IST" duration-ms="44245" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkFunctions -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.FuncionalityTest@25df00a0]" started-at="2021-12-20T11:34:54 IST" name="teardown" finished-at="2021-12-20T11:34:56 IST" duration-ms="1823" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- saucelabs_testcases.FuncionalityTest -->
-      <class name="saucelabs_testcases.CompanyCareerTest">
-        <test-method signature="checkCareer()[pri:0, instance:saucelabs_testcases.CompanyCareerTest@69c81773]" started-at="2021-12-20T11:29:37 IST" name="checkCareer" finished-at="2021-12-20T11:30:37 IST" duration-ms="59273" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkCareer -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.CompanyCareerTest@69c81773]" started-at="2021-12-20T11:30:37 IST" name="teardown" finished-at="2021-12-20T11:30:41 IST" duration-ms="4359" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- saucelabs_testcases.CompanyCareerTest -->
+      </class> <!-- saucelabs_testcases.PricingTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="saucelabs_testcases.FuncionalityTest">
+      <class name="saucelabs_testcases.TryItFreeHomeTest">
         <methods>
-          <include name="checkFunctions"/>
+          <include name="checkTryHomeTestSol"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- saucelabs_testcases.FuncionalityTest -->
+      </class> <!-- saucelabs_testcases.TryItFreeHomeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

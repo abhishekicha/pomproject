@@ -7,21 +7,21 @@ import org.testng.annotations.Test;
 
 import helper.BrowserFactory;
 import saucelabs_Pages.SolutionsLogin;
-import saucelabs_Pages.TryItFree;
+import saucelabs_Pages.TryItFreeHome;
 
-public class TryItFreeTest {
-	
- 
-	@Test(groups = { "sanity", "smoke" })
-	public void checkTrySol() throws InterruptedException {
+
+public class TryItFreeHomeTest {
+
+	@Test(groups = { "regression" })
+	public void checkTryHomeTestSol() throws InterruptedException {
 		//launch browser
 		WebDriver driver =	BrowserFactory.startBrowser("chrome", "https://saucelabs.com/");
 
 		
 		//created page object using page factory
-		TryItFree con = PageFactory.initElements(driver, TryItFree.class);
+		TryItFreeHome con = PageFactory.initElements(driver, TryItFreeHome.class);
 		//call the method
-		con.checkTryitFreeSolutions();
+		con.checkTryHome();
 		Thread.sleep(7000);
 		SolutionsLogin login = PageFactory.initElements(driver, SolutionsLogin.class);
 		login.login_to_saucedemo("abbypra", "Avi@1994");
@@ -34,3 +34,5 @@ public class TryItFreeTest {
 		BrowserFactory.quit();
 	  }
 }
+	
+

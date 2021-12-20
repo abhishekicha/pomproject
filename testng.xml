@@ -13,9 +13,11 @@
 	            </run>
         </groups>
     <classes>
-       <class name="saucelabs_testcases.ZoneTest"/>
-             <class name="saucelabs_testcases.PricingTest"/>
-             <class name="saucelabs_testcases.VerifyValidLogin"/>         
+        <class name="saucelabs_testcases.ZoneTest"/>
+         <class name="saucelabs_testcases.PricingTest"/>
+         <class name="saucelabs_testcases.VerifyValidLogin"/>
+         <class name="saucelabs_testcases.ContactSalesTest"/>
+         <class name="saucelabs_testcases.TryItFreeHomeTest"/>                           
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

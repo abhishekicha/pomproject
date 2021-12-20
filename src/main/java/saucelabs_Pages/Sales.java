@@ -3,21 +3,16 @@ package saucelabs_Pages;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Contact {
+public class Sales {
 	
 	WebDriver driver;
-	public Contact(WebDriver kdriver) {
+	public Sales(WebDriver kdriver) {
 		this.driver= kdriver;
 	}
 	
-	@FindBy(xpath="(//a[text()='Contact'])[2]") 	
-	WebElement Contact;
 	@FindBy(xpath="(//a[@href='/sales'])[2]") 	
 	WebElement Sales;
 	@FindBy(xpath="//input[@id='FirstName']") 	
@@ -46,15 +41,8 @@ public class Contact {
 	WebElement submit;
 	
 	
-	public void checkContact() throws InterruptedException {
-		Actions actions = new Actions(driver);
-        WebElement menuOption = Contact;
-    	actions.moveToElement(menuOption).perform();
-    	WebElement subMenuOption = Sales;
-	   	WebDriverWait wait= (new WebDriverWait(driver, 60));
-	   	wait.until(ExpectedConditions . elementToBeClickable (subMenuOption));
-	   	actions.moveToElement(subMenuOption).perform();
-	   	subMenuOption.click();
+	public void checkSalesContact() throws InterruptedException {
+		
    	    Thread.sleep(7000);
     	Fname.sendKeys("Abhishek");
     	Thread.sleep(3000);
@@ -92,5 +80,6 @@ public class Contact {
 
 
 	}
+
 
 }

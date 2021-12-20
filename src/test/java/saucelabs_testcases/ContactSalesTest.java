@@ -6,25 +6,25 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 import helper.BrowserFactory;
-import saucelabs_Pages.SolutionsLogin;
-import saucelabs_Pages.TryItFree;
+import saucelabs_Pages.Sales;
+import saucelabs_Pages.ContactSales;
 
-public class TryItFreeTest {
+public class ContactSalesTest {
 	
- 
-	@Test(groups = { "sanity", "smoke" })
-	public void checkTrySol() throws InterruptedException {
+	@Test(groups = { "regression" })
+	public void checkTryHomeTestSol() throws InterruptedException {
 		//launch browser
 		WebDriver driver =	BrowserFactory.startBrowser("chrome", "https://saucelabs.com/");
 
 		
 		//created page object using page factory
-		TryItFree con = PageFactory.initElements(driver, TryItFree.class);
+		ContactSales con = PageFactory.initElements(driver, ContactSales.class);
 		//call the method
-		con.checkTryitFreeSolutions();
-		Thread.sleep(7000);
-		SolutionsLogin login = PageFactory.initElements(driver, SolutionsLogin.class);
-		login.login_to_saucedemo("abbypra", "Avi@1994");
+		con.checkContactSales();
+		Sales con2 = PageFactory.initElements(driver, Sales.class);
+		//call the method
+		con2.checkSalesContact();
+		Thread.sleep(1000);
 
 	}
 
@@ -33,4 +33,6 @@ public class TryItFreeTest {
 	  {
 		BrowserFactory.quit();
 	  }
+	
+
 }
