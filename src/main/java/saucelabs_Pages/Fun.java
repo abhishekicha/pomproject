@@ -2,6 +2,7 @@ package saucelabs_Pages;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -19,15 +20,14 @@ public class Fun {
 	WebElement radio;
 	@FindBy(xpath="//span[contains(text(),'Mobile app')]") 	
 	WebElement mobile;
-	@FindBy(xpath="//div[@class='RecentAndSavedConfigs__test-start__2mGhE']//button") 	
-	WebElement start;
+	
 	
 	public void checkFunctions() throws InterruptedException {
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 		GetStarted.click();
 		radio.click();
 		mobile.click();
-		start.click();
+		
 	}
 	
 }

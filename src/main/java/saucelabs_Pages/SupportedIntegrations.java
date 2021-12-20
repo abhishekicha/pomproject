@@ -22,11 +22,11 @@ public class SupportedIntegrations {
 	WebElement Support;
 	@FindBy(xpath="(//span[text()='Learn more'])[1]") 	
 	WebElement Learn;
-	@FindBy(xpath="//a[text()='Get Started']\r\n") 	
-	WebElement GetStarted;
-	@FindBy(xpath="//span[text()='Sign In']") 	
-	WebElement Signin;
-	
+//	@FindBy(xpath="//a[text()='Get Started']\r\n") 	
+//	WebElement GetStarted;
+//	@FindBy(xpath="//span[text()='Sign In']") 	
+//	WebElement Signin;
+//	
 	public void checkSupportedIntegrationsSolutions() throws InterruptedException {
 		Actions actions = new Actions(driver);
         WebElement menuOption = Platform;
@@ -37,26 +37,26 @@ public class SupportedIntegrations {
     	Thread.sleep(5000);
     	Learn.click();
     	Thread.sleep(5000);
-    	GetStarted.click();
-    	Thread.sleep(5000);
-        String newTab =null;
-        String baseTab = driver.getWindowHandle();
-        Signin.click();
-        Set <String> allTabs = driver.getWindowHandles();
-        allTabs.remove(baseTab);
-        Iterator<String> itr = allTabs.iterator();
-        
-        while(itr.hasNext()){
-
-
-            newTab = (String) itr.next();
-
-            }
-
-            driver.switchTo().window(newTab);
-    	
-       
-    	
+//    	GetStarted.click();
+//    	Thread.sleep(5000);
+//        String newTab =null;
+//        String baseTab = driver.getWindowHandle();
+//        Signin.click();
+//        Set <String> allTabs = driver.getWindowHandles();
+//        allTabs.remove(baseTab);
+//        Iterator<String> itr = allTabs.iterator();
+//        
+//        while(itr.hasNext()){
+//
+//
+//            newTab = (String) itr.next();
+//
+//            }
+//
+//            driver.switchTo().window(newTab);
+//    	
+//       
+//    	
 	}
 
 }

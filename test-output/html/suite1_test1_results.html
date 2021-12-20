@@ -12,90 +12,13 @@
 <body>
 <h1>Test</h1>
 <p>
-  Test duration: 949.671s
+  Test duration: 870.646s
 </p>
 
 
 
   <table class="resultsTable">
     <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
-          <tr>
-        <td colspan="3" class="group">saucelabs_testcases.PricingTest</td>
-      </tr>
-            
-<tr>
-  <td class="method">
-                  checkPricing
-      </td>
-  <td class="duration">
-    49.967s
-  </td>
-  <td class="result">
-        
-    
-        
-
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;select class=&quot;browser-default&quot; data-filter-category=&quot;count&quot; data-ta=&quot;select&quot; data-tc=&quot;Pricing Wizard&quot;&gt;...&lt;/select&gt; is not clickable at point (627, 489). Other element would receive the click: &lt;section class=&quot;section section-switch has-inset-shadow-top is-paddingless-bottom&quot;&gt;...&lt;/section&gt;<br/>
-&nbsp; (Session info: chrome=96.0.4664.110)<br/>
-Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;<br/>
-System info: host: &apos;ABBY&apos;, ip: &apos;169.254.150.134&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;<br/>
-Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
-Command: [404d7ce9d2dc70da118e36cc5d631120, clickElement {id=3efb9821-dfbc-4f63-b6e9-1a767baf2890}]<br/>
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ACER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63161}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63161/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
-Element: [[ChromeDriver: chrome on WINDOWS (404d7ce9d2dc70da118e36cc5d631120)] -&gt; xpath: (//select[@class=&apos;browser-default&apos;])[1]]<br/>
-Session ID: 404d7ce9d2dc70da118e36cc5d631120</b></a><br />
-    <div class="stackTrace" id="exception-0">
-              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
-              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
-              java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
-              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)<br />
-              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)<br />
-              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)<br />
-              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)<br />
-              org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)<br />
-              org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)<br />
-              jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)<br />
-              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.base/java.lang.reflect.Method.invoke(Method.java:566)<br />
-              org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)<br />
-              com.sun.proxy.$Proxy16.click(Unknown Source)<br />
-              saucelabs_Pages.Pricing.checkPricingSolutions(Pricing.java:51)<br />
-              saucelabs_testcases.PricingTest.checkPricing(PricingTest.java:27)<br />
-              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
-              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.base/java.lang.reflect.Method.invoke(Method.java:566)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)<br />
-              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)<br />
-              org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)<br />
-              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)<br />
-              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)<br />
-              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
-              java.base/java.util.ArrayList.forEach(ArrayList.java:1540)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:794)<br />
-              org.testng.TestRunner.run(TestRunner.java:596)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:377)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:276)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1134)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1063)<br />
-              org.testng.TestNG.run(TestNG.java:1031)<br />
-              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
-              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
-              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
-                </div>
-      </td>
-</tr>
           <tr>
         <td colspan="3" class="group">saucelabs_testcases.UsageTest</td>
       </tr>
@@ -105,15 +28,15 @@ Session ID: 404d7ce9d2dc70da118e36cc5d631120</b></a><br />
                   checkUsageTest
       </td>
   <td class="duration">
-    74.338s
+    70.905s
   </td>
   <td class="result">
         
     
         
 
-        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: Write your custom error message</b></a><br />
-    <div class="stackTrace" id="exception-1">
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: Write your custom error message</b></a><br />
+    <div class="stackTrace" id="exception-0">
               org.testng.Assert.fail(Assert.java:99)<br />
               saucelabs_testcases.UsageTest.checkUsageTest(UsageTest.java:41)<br />
               java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
@@ -161,7 +84,7 @@ Session ID: 404d7ce9d2dc70da118e36cc5d631120</b></a><br />
                   checkAutomated
       </td>
   <td class="duration">
-    66.509s
+    64.372s
   </td>
   <td class="result">
         
@@ -179,7 +102,7 @@ Session ID: 404d7ce9d2dc70da118e36cc5d631120</b></a><br />
                   checkCareer
       </td>
   <td class="duration">
-    57.451s
+    59.273s
   </td>
   <td class="result">
         
@@ -197,7 +120,7 @@ Session ID: 404d7ce9d2dc70da118e36cc5d631120</b></a><br />
                   checkCom
       </td>
   <td class="duration">
-    61.832s
+    75.307s
   </td>
   <td class="result">
         
@@ -215,7 +138,7 @@ Session ID: 404d7ce9d2dc70da118e36cc5d631120</b></a><br />
                   checkContact
       </td>
   <td class="duration">
-    71.308s
+    69.159s
   </td>
   <td class="result">
         
@@ -233,7 +156,7 @@ Session ID: 404d7ce9d2dc70da118e36cc5d631120</b></a><br />
                   checkContinuous
       </td>
   <td class="duration">
-    75.494s
+    59.327s
   </td>
   <td class="result">
         
@@ -251,7 +174,7 @@ Session ID: 404d7ce9d2dc70da118e36cc5d631120</b></a><br />
                   checkFunctions
       </td>
   <td class="duration">
-    54.992s
+    44.245s
   </td>
   <td class="result">
         
@@ -269,7 +192,7 @@ Session ID: 404d7ce9d2dc70da118e36cc5d631120</b></a><br />
                   checkLive
       </td>
   <td class="duration">
-    47.650s
+    43.252s
   </td>
   <td class="result">
         
@@ -287,7 +210,7 @@ Session ID: 404d7ce9d2dc70da118e36cc5d631120</b></a><br />
                   checkNav
       </td>
   <td class="duration">
-    66.235s
+    68.014s
   </td>
   <td class="result">
         
@@ -305,7 +228,7 @@ Session ID: 404d7ce9d2dc70da118e36cc5d631120</b></a><br />
                   checkPlatform
       </td>
   <td class="duration">
-    55.893s
+    61.114s
   </td>
   <td class="result">
         
@@ -323,7 +246,7 @@ Session ID: 404d7ce9d2dc70da118e36cc5d631120</b></a><br />
                   checkSauce
       </td>
   <td class="duration">
-    63.998s
+    60.668s
   </td>
   <td class="result">
         
@@ -341,7 +264,7 @@ Session ID: 404d7ce9d2dc70da118e36cc5d631120</b></a><br />
                   checkSol
       </td>
   <td class="duration">
-    66.767s
+    67.587s
   </td>
   <td class="result">
         
@@ -359,7 +282,7 @@ Session ID: 404d7ce9d2dc70da118e36cc5d631120</b></a><br />
                   checkIntegrations
       </td>
   <td class="duration">
-    59.232s
+    55.947s
   </td>
   <td class="result">
         
@@ -377,7 +300,7 @@ Session ID: 404d7ce9d2dc70da118e36cc5d631120</b></a><br />
                   checkTrySol
       </td>
   <td class="duration">
-    48.322s
+    44.188s
   </td>
   <td class="result">
         

@@ -26,10 +26,10 @@ public class SupportedIntegrationsTest {
 		con.checkSupportedIntegrationsSolutions();
 		Thread.sleep(10000);
 
-		//created page object using page factory
-		SolutionsLogin login_page = PageFactory.initElements(driver, SolutionsLogin.class);
-		//call the method
-		login_page.login_to_saucedemo("abbypra", "Avi@1994");
+//		//created page object using page factory
+//		SolutionsLogin login_page = PageFactory.initElements(driver, SolutionsLogin.class);
+//		//call the method
+//		login_page.login_to_saucedemo("abbypra", "Avi@1994");
 
 	}
 	

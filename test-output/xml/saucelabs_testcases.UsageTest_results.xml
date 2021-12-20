@@ -4,9 +4,9 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="74.338">
+           time="70.905">
   <properties />
-            <testcase name="checkUsageTest" time="74.338" classname="saucelabs_testcases.UsageTest">
+            <testcase name="checkUsageTest" time="70.905" classname="saucelabs_testcases.UsageTest">
                 <failure type="java.lang.AssertionError"
                   message="Write your custom error message"
               >

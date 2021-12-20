@@ -55,18 +55,66 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>13/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Dec 16 15:24:09 IST 2021</td>
+<td>Started on:</td><td>Mon Dec 20 11:28:31 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>168 seconds (168082 ms)</td>
+<tr><td>Total time:</td><td>871 seconds (871386 ms)</td>
 </tr><tr>
-<td>Included groups:</td><td>regression </td>
+<td>Included groups:</td><td>smoke sanity g1 </td>
 </tr><tr>
-<td>Excluded groups:</td><td></td>
+<td>Excluded groups:</td><td>regression </td>
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='saucelabs_testcases.UsageTest.checkUsageTest()'><b>checkUsageTest</b><br>Test class: saucelabs_testcases.UsageTest</td>
+<td><div><pre>java.lang.AssertionError: Write your custom error message
+	at saucelabs_testcases.UsageTest.checkUsageTest(UsageTest.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1877732417", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1877732417'><pre>java.lang.AssertionError: Write your custom error message
+	at org.testng.Assert.fail(Assert.java:99)
+	at saucelabs_testcases.UsageTest.checkUsageTest(UsageTest.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>70</td>
+<td>saucelabs_testcases.UsageTest@97e93f1</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,15 +123,70 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='saucelabs_testcases.PricingTest.checkPricing()'><b>checkPricing</b><br>Test class: saucelabs_testcases.PricingTest</td>
+<td title='saucelabs_testcases.CompanyCareerTest.checkCareer()'><b>checkCareer</b><br>Test class: saucelabs_testcases.CompanyCareerTest</td>
 <td></td>
-<td>87</td>
-<td>saucelabs_testcases.PricingTest@771a660</td></tr>
+<td>59</td>
+<td>saucelabs_testcases.CompanyCareerTest@69c81773</td></tr>
 <tr>
-<td title='saucelabs_testcases.ZoneTest.checkZontTest()'><b>checkZontTest</b><br>Test class: saucelabs_testcases.ZoneTest</td>
+<td title='saucelabs_testcases.SolutionsTest.checkSol()'><b>checkSol</b><br>Test class: saucelabs_testcases.SolutionsTest</td>
 <td></td>
-<td>77</td>
-<td>saucelabs_testcases.ZoneTest@2805d709</td></tr>
+<td>67</td>
+<td>saucelabs_testcases.SolutionsTest@1a4927d6</td></tr>
+<tr>
+<td title='saucelabs_testcases.CompanyTest.checkCom()'><b>checkCom</b><br>Test class: saucelabs_testcases.CompanyTest</td>
+<td></td>
+<td>75</td>
+<td>saucelabs_testcases.CompanyTest@4d14b6c2</td></tr>
+<tr>
+<td title='saucelabs_testcases.SupportedIntegrationsTest.checkIntegrations()'><b>checkIntegrations</b><br>Test class: saucelabs_testcases.SupportedIntegrationsTest</td>
+<td></td>
+<td>55</td>
+<td>saucelabs_testcases.SupportedIntegrationsTest@7a6d7e92</td></tr>
+<tr>
+<td title='saucelabs_testcases.Live.checkLive()'><b>checkLive</b><br>Test class: saucelabs_testcases.Live</td>
+<td></td>
+<td>43</td>
+<td>saucelabs_testcases.Live@4d15107f</td></tr>
+<tr>
+<td title='saucelabs_testcases.SauceappTest.checkSauce()'><b>checkSauce</b><br>Test class: saucelabs_testcases.SauceappTest</td>
+<td></td>
+<td>60</td>
+<td>saucelabs_testcases.SauceappTest@491b9b8</td></tr>
+<tr>
+<td title='saucelabs_testcases.AutomatedTest.checkAutomated()'><b>checkAutomated</b><br>Test class: saucelabs_testcases.AutomatedTest</td>
+<td></td>
+<td>64</td>
+<td>saucelabs_testcases.AutomatedTest@72bc6553</td></tr>
+<tr>
+<td title='saucelabs_testcases.PlatformTest.checkPlatform()'><b>checkPlatform</b><br>Test class: saucelabs_testcases.PlatformTest</td>
+<td></td>
+<td>61</td>
+<td>saucelabs_testcases.PlatformTest@60f00693</td></tr>
+<tr>
+<td title='saucelabs_testcases.TryItFreeTest.checkTrySol()'><b>checkTrySol</b><br>Test class: saucelabs_testcases.TryItFreeTest</td>
+<td></td>
+<td>44</td>
+<td>saucelabs_testcases.TryItFreeTest@aba625</td></tr>
+<tr>
+<td title='saucelabs_testcases.NavbarTest.checkNav()'><b>checkNav</b><br>Test class: saucelabs_testcases.NavbarTest</td>
+<td></td>
+<td>68</td>
+<td>saucelabs_testcases.NavbarTest@50378a4</td></tr>
+<tr>
+<td title='saucelabs_testcases.ContinuosTest.checkContinuous()'><b>checkContinuous</b><br>Test class: saucelabs_testcases.ContinuosTest</td>
+<td></td>
+<td>59</td>
+<td>saucelabs_testcases.ContinuosTest@c05fddc</td></tr>
+<tr>
+<td title='saucelabs_testcases.ContactTest.checkContact()'><b>checkContact</b><br>Test class: saucelabs_testcases.ContactTest</td>
+<td></td>
+<td>69</td>
+<td>saucelabs_testcases.ContactTest@7e990ed7</td></tr>
+<tr>
+<td title='saucelabs_testcases.FuncionalityTest.checkFunctions()'><b>checkFunctions</b><br>Test class: saucelabs_testcases.FuncionalityTest</td>
+<td></td>
+<td>44</td>
+<td>saucelabs_testcases.FuncionalityTest@25df00a0</td></tr>
 </table><p>
 </body>
 </html>
