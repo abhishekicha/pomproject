@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="67.587">
+           time="71.397">
   <properties />
   
   
-            <testcase name="checkSol" time="67.587" classname="saucelabs_testcases.SolutionsTest" />
+            <testcase name="checkSol" time="71.397" classname="saucelabs_testcases.SolutionsTest" />
       
 </testsuite>

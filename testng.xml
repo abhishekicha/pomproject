@@ -17,7 +17,10 @@
          <class name="saucelabs_testcases.PricingTest"/>
          <class name="saucelabs_testcases.VerifyValidLogin"/>
          <class name="saucelabs_testcases.ContactSalesTest"/>
-         <class name="saucelabs_testcases.TryItFreeHomeTest"/>                           
+         <class name="saucelabs_testcases.TryItFreeHomeTest"/>
+         <class name="saucelabs_testcases.CrossBrowserTest"/>                           
+          <class name="saucelabs_testcases.MobileAppTesting"/>
+          <class name="saucelabs_testcases.LowCodeTest"/>                             
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="59.327">
+           time="52.868">
   <properties />
   
   
-            <testcase name="checkContinuous" time="59.327" classname="saucelabs_testcases.ContinuosTest" />
+            <testcase name="checkContinuous" time="52.868" classname="saucelabs_testcases.ContinuosTest" />
       
 </testsuite>
