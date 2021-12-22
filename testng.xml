@@ -20,7 +20,9 @@
          <class name="saucelabs_testcases.TryItFreeHomeTest"/>
          <class name="saucelabs_testcases.CrossBrowserTest"/>                           
           <class name="saucelabs_testcases.MobileAppTesting"/>
-          <class name="saucelabs_testcases.LowCodeTest"/>                             
+          <class name="saucelabs_testcases.LowCodeTest"/> 
+          <class name="saucelabs_testcases.ErrorReportingTest"/>                             
+                                      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
