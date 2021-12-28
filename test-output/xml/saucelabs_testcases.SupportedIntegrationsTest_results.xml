@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="51.251">
+           time="41.305">
   <properties />
   
   
-            <testcase name="checkIntegrations" time="51.251" classname="saucelabs_testcases.SupportedIntegrationsTest" />
+            <testcase name="checkIntegrations" time="41.305" classname="saucelabs_testcases.SupportedIntegrationsTest" />
       
 </testsuite>

@@ -45,6 +45,7 @@ public class ErrorReporting {
 		Thread.sleep(3000);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,330)", "");
+		Thread.sleep(3000);
 		Err.click();
 		Thread.sleep(5000);
 		Try.click();

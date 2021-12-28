@@ -23,6 +23,7 @@ public class MobileApp {
 		Thread.sleep(3000);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,330)", "");
+		Thread.sleep(3000);
 		Mobile.click();
 		Thread.sleep(5000);
 		js.executeScript("window.scrollBy(0,330)", "");

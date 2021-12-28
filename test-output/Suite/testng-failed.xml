@@ -11,16 +11,10 @@
       </run>
     </groups>
     <classes>
-      <class name="saucelabs_testcases.ErrorReportingTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="checkErrorReportingTestSol"/>
-        </methods>
-      </class> <!-- saucelabs_testcases.ErrorReportingTest -->
       <class name="saucelabs_testcases.AllTheThingsTest">
         <methods>
+          <include name="checkUiTestSol"/>
           <include name="teardown"/>
-          <include name="checkMobileBetaTestSol"/>
         </methods>
       </class> <!-- saucelabs_testcases.AllTheThingsTest -->
     </classes>

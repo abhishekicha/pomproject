@@ -1,85 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Test"
            tests="1"
-           failures="1"
+           failures="0"
            errors="0"
            skipped="0"
-           time="66.350">
+           time="73.380">
   <properties />
-            <testcase name="checkUsageTest" time="66.350" classname="saucelabs_testcases.UsageTest">
-                <failure type="org.openqa.selenium.NoSuchElementException"
-                  message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;beamerAnnouncementSnippetClose&apos;]&quot;}
-  (Session info: chrome=96.0.4664.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
-System info: host: &apos;ABBY&apos;, ip: &apos;169.254.150.134&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5cb3ba0ae7a16f4194289a0f9d09c66d, findElement {using=xpath, value=//div[@class=&apos;beamerAnnouncementSnippetClose&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ACER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60006}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60006/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5cb3ba0ae7a16f4194289a0f9d09c66d"
-              >
-<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='beamerAnnouncementSnippetClose']"}
-  (Session info: chrome=96.0.4664.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'ABBY', ip: '169.254.150.134', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5cb3ba0ae7a16f4194289a0f9d09c66d, findElement {using=xpath, value=//div[@class='beamerAnnouncementSnippetClose']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ACER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60006}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60006/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5cb3ba0ae7a16f4194289a0f9d09c66d
-  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-  java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-  java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-  org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-  org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-  org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
-  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
-  org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-  org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-  com.sun.proxy.$Proxy16.click(Unknown Source)
-  saucelabs_Pages.Usage.checkUsage(Usage.java:32)
-  saucelabs_testcases.UsageTest.checkUsageTest(UsageTest.java:33)
-  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-  java.base/java.lang.reflect.Method.invoke(Method.java:566)
-  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-  org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-  org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-  org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-  org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-  org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-  java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-  org.testng.TestRunner.privateRun(TestRunner.java:794)
-  org.testng.TestRunner.run(TestRunner.java:596)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-  org.testng.SuiteRunner.run(SuiteRunner.java:276)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-  org.testng.TestNG.runSuites(TestNG.java:1063)
-  org.testng.TestNG.run(TestNG.java:1031)
-  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-      </failure>
-
-          </testcase>
   
   
-  
+            <testcase name="checkUsageTest" time="73.380" classname="saucelabs_testcases.UsageTest" />
+      
 </testsuite>

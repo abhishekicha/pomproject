@@ -46,14 +46,14 @@ public class AllTheThings {
 	WebElement Submit;
 	@FindBy(xpath="//h2[text()='Test Automation']") 	
 	WebElement Test;
-//	@FindBy(xpath="(//span[text()='Try it free'])[2]") 	
-//	WebElement Try;
+
 	
 	
 	public void checkMobile() throws InterruptedException {
 		Thread.sleep(3000);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,470)", "");
+		Thread.sleep(3000);
 		Mobile.click();
 		Thread.sleep(5000);
 		Try.click();
@@ -64,6 +64,7 @@ public class AllTheThings {
 		Thread.sleep(3000);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,470)", "");
+		Thread.sleep(3000);
 		Api.click();
 		Thread.sleep(5000);
 		GetStarted.click();
@@ -89,6 +90,7 @@ public class AllTheThings {
 		Thread.sleep(3000);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,470)", "");
+		Thread.sleep(3000);
 		Ui.click();
 		Thread.sleep(5000);
 		Demo.click();
@@ -113,6 +115,7 @@ public class AllTheThings {
 		Thread.sleep(3000);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,470)", "");
+		Thread.sleep(3000);
 		Test.click();
 		Thread.sleep(5000);
 		Try.click();
