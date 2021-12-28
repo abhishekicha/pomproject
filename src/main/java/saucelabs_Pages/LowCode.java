@@ -42,6 +42,7 @@ public class LowCode {
 	WebElement Submit;
 	
 	public void checLowCode() throws InterruptedException {
+		Thread.sleep(3000);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,330)", "");
 		Mobile.click();

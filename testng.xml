@@ -9,20 +9,19 @@
 	            <run>
 	                <include name = "regression">
 	                </include>
-	                
 	            </run>
         </groups>
     <classes>
-        <class name="saucelabs_testcases.ZoneTest"/>
-         <class name="saucelabs_testcases.PricingTest"/>
-         <class name="saucelabs_testcases.VerifyValidLogin"/>
-         <class name="saucelabs_testcases.ContactSalesTest"/>
-         <class name="saucelabs_testcases.TryItFreeHomeTest"/>
-         <class name="saucelabs_testcases.CrossBrowserTest"/>                           
-          <class name="saucelabs_testcases.MobileAppTesting"/>
-          <class name="saucelabs_testcases.LowCodeTest"/> 
-          <class name="saucelabs_testcases.ErrorReportingTest"/>                             
-                                      
+	        <class name="saucelabs_testcases.ZoneTest"/>
+	         <class name="saucelabs_testcases.PricingTest"/>
+	         <class name="saucelabs_testcases.VerifyValidLogin"/>
+	         <class name="saucelabs_testcases.ContactSalesTest"/>
+	         <class name="saucelabs_testcases.TryItFreeHomeTest"/>
+	         <class name="saucelabs_testcases.CrossBrowserTest"/>                           
+	         <class name="saucelabs_testcases.MobileAppTesting"/>
+	         <class name="saucelabs_testcases.LowCodeTest"/> 
+	         <class name="saucelabs_testcases.ErrorReportingTest"/> 
+	         <class name="saucelabs_testcases.AllTheThingsTest"/>                             
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

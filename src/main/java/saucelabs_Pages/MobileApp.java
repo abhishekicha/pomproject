@@ -20,6 +20,7 @@ public class MobileApp {
 	WebElement Login;
 	
 	public void checkMobileApp() throws InterruptedException {
+		Thread.sleep(3000);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,330)", "");
 		Mobile.click();

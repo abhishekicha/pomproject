@@ -20,7 +20,7 @@ public class SolutionsLogin {
 		
 		
 		public void login_to_saucedemo(String uid, String pas) throws InterruptedException {
-			Thread.sleep(7000);
+			Thread.sleep(15000);
 			Username.sendKeys(uid);
 			Password.sendKeys(pas);
 			Login.click();

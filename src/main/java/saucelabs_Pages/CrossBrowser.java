@@ -22,6 +22,7 @@ public class CrossBrowser {
 
 	
 public void checkCrossBrowser() throws InterruptedException {
+		Thread.sleep(3000);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,330)", "");
 		Cross.click();

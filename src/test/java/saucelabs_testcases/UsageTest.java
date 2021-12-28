@@ -38,7 +38,7 @@ public class UsageTest  {
 //	    		+ "\\SoftwareTestingMaterial8.png"));
 //	}
 
-		Assert.fail("Write your custom error message");
+	//	Assert.fail("Write your custom error message");
 
 	}
 

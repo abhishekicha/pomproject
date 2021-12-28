@@ -11,12 +11,18 @@
       </run>
     </groups>
     <classes>
-      <class name="saucelabs_testcases.MobileAppTesting">
+      <class name="saucelabs_testcases.ErrorReportingTest">
         <methods>
-          <include name="checkMobileAppTestSol"/>
           <include name="teardown"/>
+          <include name="checkErrorReportingTestSol"/>
         </methods>
-      </class> <!-- saucelabs_testcases.MobileAppTesting -->
+      </class> <!-- saucelabs_testcases.ErrorReportingTest -->
+      <class name="saucelabs_testcases.AllTheThingsTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="checkMobileBetaTestSol"/>
+        </methods>
+      </class> <!-- saucelabs_testcases.AllTheThingsTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

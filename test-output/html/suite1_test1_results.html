@@ -12,7 +12,7 @@
 <body>
 <h1>Test</h1>
 <p>
-  Test duration: 932.164s
+  Test duration: 996.689s
 </p>
 
 
@@ -28,17 +28,43 @@
                   checkUsageTest
       </td>
   <td class="duration">
-    86.804s
+    66.350s
   </td>
   <td class="result">
         
     
         
 
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: Write your custom error message</b></a><br />
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;beamerAnnouncementSnippetClose&apos;]&quot;}<br/>
+&nbsp; (Session info: chrome=96.0.4664.110)<br/>
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element<br/>
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;<br/>
+System info: host: &apos;ABBY&apos;, ip: &apos;169.254.150.134&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Command: [5cb3ba0ae7a16f4194289a0f9d09c66d, findElement {using=xpath, value=//div[@class=&apos;beamerAnnouncementSnippetClose&apos;]}]<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ACER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60006}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60006/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 5cb3ba0ae7a16f4194289a0f9d09c66d</b></a><br />
     <div class="stackTrace" id="exception-0">
-              org.testng.Assert.fail(Assert.java:99)<br />
-              saucelabs_testcases.UsageTest.checkUsageTest(UsageTest.java:41)<br />
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)<br />
+              org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)<br />
+              org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)<br />
+              org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)<br />
+              org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)<br />
+              com.sun.proxy.$Proxy16.click(Unknown Source)<br />
+              saucelabs_Pages.Usage.checkUsage(Usage.java:32)<br />
+              saucelabs_testcases.UsageTest.checkUsageTest(UsageTest.java:33)<br />
               java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
               java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
@@ -84,7 +110,7 @@
                   checkAutomated
       </td>
   <td class="duration">
-    69.928s
+    85.634s
   </td>
   <td class="result">
         
@@ -102,7 +128,7 @@
                   checkCareer
       </td>
   <td class="duration">
-    55.107s
+    61.539s
   </td>
   <td class="result">
         
@@ -120,7 +146,7 @@
                   checkCom
       </td>
   <td class="duration">
-    50.599s
+    57.215s
   </td>
   <td class="result">
         
@@ -138,7 +164,7 @@
                   checkContact
       </td>
   <td class="duration">
-    68.491s
+    72.766s
   </td>
   <td class="result">
         
@@ -156,7 +182,7 @@
                   checkContinuous
       </td>
   <td class="duration">
-    52.868s
+    59.044s
   </td>
   <td class="result">
         
@@ -174,7 +200,7 @@
                   checkFunctions
       </td>
   <td class="duration">
-    44.870s
+    65.856s
   </td>
   <td class="result">
         
@@ -192,7 +218,7 @@
                   checkLive
       </td>
   <td class="duration">
-    51.212s
+    64.120s
   </td>
   <td class="result">
         
@@ -210,7 +236,7 @@
                   checkNav
       </td>
   <td class="duration">
-    96.327s
+    106.131s
   </td>
   <td class="result">
         
@@ -228,7 +254,7 @@
                   checkPlatform
       </td>
   <td class="duration">
-    70.430s
+    64.133s
   </td>
   <td class="result">
         
@@ -246,7 +272,7 @@
                   checkSauce
       </td>
   <td class="duration">
-    69.031s
+    71.538s
   </td>
   <td class="result">
         
@@ -264,7 +290,7 @@
                   checkSol
       </td>
   <td class="duration">
-    71.397s
+    76.576s
   </td>
   <td class="result">
         
@@ -282,7 +308,7 @@
                   checkIntegrations
       </td>
   <td class="duration">
-    56.608s
+    51.251s
   </td>
   <td class="result">
         
@@ -300,7 +326,7 @@
                   checkTrySol
       </td>
   <td class="duration">
-    58.273s
+    52.067s
   </td>
   <td class="result">
         
