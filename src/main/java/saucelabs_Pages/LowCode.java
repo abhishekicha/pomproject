@@ -36,7 +36,7 @@ public class LowCode {
 	WebElement Country;
 	@FindBy(xpath="//textarea[@id='Sales_Contact_Comments__c']") 	
 	WebElement Comments;
-	@FindBy(xpath="//label[@id='LblmktoCheckbox_26256_0']") 	
+	@FindBy(xpath="//div[@class='mktoLogicalField mktoCheckboxList mktoHasWidth']//label") 	
 	WebElement Consent;
 	@FindBy(xpath="//button[text()='Submit']") 	
 	WebElement Submit;

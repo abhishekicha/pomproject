@@ -11,12 +11,12 @@
       </run>
     </groups>
     <classes>
-      <class name="saucelabs_testcases.AllTheThingsTest">
+      <class name="saucelabs_testcases.LowCodeTest">
         <methods>
-          <include name="checkUiTestSol"/>
+          <include name="checkLowCodeTestSol"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- saucelabs_testcases.AllTheThingsTest -->
+      </class> <!-- saucelabs_testcases.LowCodeTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -17,7 +17,7 @@
 	            <run>
 	                <include name = "g1">
 	                </include>
-	                <exclude name="regression">
+	                <exclude name="regression"> 
 	    			 </exclude>
 	            </run>
         </groups>
