@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="68.388">
+           time="71.985">
   <properties />
   
   
-            <testcase name="checkTrySol" time="68.388" classname="saucelabs_testcases.TryItFreeTest" />
+            <testcase name="checkTrySol" time="71.985" classname="saucelabs_testcases.TryItFreeTest" />
       
 </testsuite>

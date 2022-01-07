@@ -108,6 +108,7 @@ public class AllTheThings {
 		Select select = new Select(Country);
 	    select.selectByValue("India");
 	    Thread.sleep(3000);
+		js.executeScript("window.scrollBy(0,300)", "");
 	    Submit.click();
 	}
 	

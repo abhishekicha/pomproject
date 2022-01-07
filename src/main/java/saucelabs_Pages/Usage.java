@@ -1,5 +1,7 @@
 package saucelabs_Pages;
 
+import java.util.NoSuchElementException;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -29,7 +31,14 @@ public class Usage {
 	
 	public void checkUsage() throws  InterruptedException {
 		Thread.sleep(30000);
-		alerts.click();
+		
+		try {
+			alerts.click();
+		} catch (Exception ignored) {
+		    //do what you need here if you were expecting
+		    //the element wouldn't exist
+			System.out.println(ignored);
+		}
 		WebDriverWait wait = new WebDriverWait(driver,30);
 		wait.until(ExpectedConditions.elementToBeClickable(Tunnels)).click();
 		Usage.click();

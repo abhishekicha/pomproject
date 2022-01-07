@@ -3,20 +3,23 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="listeners.TestListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <groups>
       <run>
-        <include name="regression"/>
+        <include name="g1"/>
+        <exclude name="regression"/>
       </run>
     </groups>
     <classes>
-      <class name="saucelabs_testcases.LowCodeTest">
+      <class name="saucelabs_testcases.UsageTest">
         <methods>
-          <include name="checkLowCodeTestSol"/>
           <include name="teardown"/>
+          <include name="checkUsageTest"/>
         </methods>
-      </class> <!-- saucelabs_testcases.LowCodeTest -->
+      </class> <!-- saucelabs_testcases.UsageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
