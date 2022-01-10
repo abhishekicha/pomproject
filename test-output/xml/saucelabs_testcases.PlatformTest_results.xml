@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="96.082">
+           time="62.387">
   <properties />
   
   
-            <testcase name="checkPlatform" time="96.082" classname="saucelabs_testcases.PlatformTest" />
+            <testcase name="checkPlatform" time="62.387" classname="saucelabs_testcases.PlatformTest" />
       
 </testsuite>

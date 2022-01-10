@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-07T12:39:52 IST" name="Default suite" finished-at="2022-01-07T12:48:38 IST" duration-ms="526171">
+  <suite started-at="2022-01-10T09:25:44 IST" name="Default suite" finished-at="2022-01-10T09:30:27 IST" duration-ms="282941">
     <groups>
       <group name="regression">
         <method signature="AllTheThingsTest.checkApiTestSol()[pri:2, instance:saucelabs_testcases.AllTheThingsTest@342c38f8]" name="checkApiTestSol" class="saucelabs_testcases.AllTheThingsTest"/>
@@ -11,37 +11,37 @@
         <method signature="AllTheThingsTest.checkUiTestSol()[pri:3, instance:saucelabs_testcases.AllTheThingsTest@342c38f8]" name="checkUiTestSol" class="saucelabs_testcases.AllTheThingsTest"/>
       </group> <!-- regression -->
     </groups>
-    <test started-at="2022-01-07T12:39:52 IST" name="Default test" finished-at="2022-01-07T12:48:38 IST" duration-ms="526171">
+    <test started-at="2022-01-10T09:25:44 IST" name="Default test" finished-at="2022-01-10T09:30:27 IST" duration-ms="282941">
       <class name="saucelabs_testcases.AllTheThingsTest">
-        <test-method signature="checkMobileBetaTestSol()[pri:1, instance:saucelabs_testcases.AllTheThingsTest@342c38f8]" started-at="2022-01-07T12:39:52 IST" name="checkMobileBetaTestSol" finished-at="2022-01-07T12:41:51 IST" duration-ms="118269" status="PASS">
+        <test-method signature="checkMobileBetaTestSol()[pri:1, instance:saucelabs_testcases.AllTheThingsTest@342c38f8]" started-at="2022-01-10T09:25:44 IST" name="checkMobileBetaTestSol" finished-at="2022-01-10T09:26:59 IST" duration-ms="74556" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkMobileBetaTestSol -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.AllTheThingsTest@342c38f8]" started-at="2022-01-07T12:41:51 IST" name="teardown" finished-at="2022-01-07T12:41:58 IST" duration-ms="7022" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.AllTheThingsTest@342c38f8]" started-at="2022-01-10T09:26:59 IST" name="teardown" finished-at="2022-01-10T09:27:01 IST" duration-ms="1902" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method signature="checkApiTestSol()[pri:2, instance:saucelabs_testcases.AllTheThingsTest@342c38f8]" started-at="2022-01-07T12:41:58 IST" name="checkApiTestSol" finished-at="2022-01-07T12:44:37 IST" duration-ms="159054" status="PASS">
+        <test-method signature="checkApiTestSol()[pri:2, instance:saucelabs_testcases.AllTheThingsTest@342c38f8]" started-at="2022-01-10T09:27:01 IST" name="checkApiTestSol" finished-at="2022-01-10T09:28:01 IST" duration-ms="59883" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkApiTestSol -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.AllTheThingsTest@342c38f8]" started-at="2022-01-07T12:44:37 IST" name="teardown" finished-at="2022-01-07T12:44:50 IST" duration-ms="13289" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.AllTheThingsTest@342c38f8]" started-at="2022-01-10T09:28:01 IST" name="teardown" finished-at="2022-01-10T09:28:03 IST" duration-ms="2308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method signature="checkUiTestSol()[pri:3, instance:saucelabs_testcases.AllTheThingsTest@342c38f8]" started-at="2022-01-07T12:44:50 IST" name="checkUiTestSol" finished-at="2022-01-07T12:46:57 IST" duration-ms="127025" status="PASS">
+        <test-method signature="checkUiTestSol()[pri:3, instance:saucelabs_testcases.AllTheThingsTest@342c38f8]" started-at="2022-01-10T09:28:03 IST" name="checkUiTestSol" finished-at="2022-01-10T09:29:16 IST" duration-ms="73421" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkUiTestSol -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.AllTheThingsTest@342c38f8]" started-at="2022-01-07T12:46:57 IST" name="teardown" finished-at="2022-01-07T12:47:00 IST" duration-ms="2993" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.AllTheThingsTest@342c38f8]" started-at="2022-01-10T09:29:16 IST" name="teardown" finished-at="2022-01-10T09:29:18 IST" duration-ms="1533" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method signature="checkAutomationTestSol()[pri:4, instance:saucelabs_testcases.AllTheThingsTest@342c38f8]" started-at="2022-01-07T12:47:00 IST" name="checkAutomationTestSol" finished-at="2022-01-07T12:48:35 IST" duration-ms="94477" status="PASS">
+        <test-method signature="checkAutomationTestSol()[pri:4, instance:saucelabs_testcases.AllTheThingsTest@342c38f8]" started-at="2022-01-10T09:29:18 IST" name="checkAutomationTestSol" finished-at="2022-01-10T09:30:25 IST" duration-ms="67297" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkAutomationTestSol -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.AllTheThingsTest@342c38f8]" started-at="2022-01-07T12:48:35 IST" name="teardown" finished-at="2022-01-07T12:48:38 IST" duration-ms="3782" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.AllTheThingsTest@342c38f8]" started-at="2022-01-10T09:30:25 IST" name="teardown" finished-at="2022-01-10T09:30:27 IST" duration-ms="1850" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
