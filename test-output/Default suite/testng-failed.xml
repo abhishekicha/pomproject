@@ -5,7 +5,7 @@
     <classes>
       <class name="saucelabs_testcases.AllTheThingsTest">
         <methods>
-          <include name="checkUiTestSol"/>
+          <include name="checkApiTestSol"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- saucelabs_testcases.AllTheThingsTest -->

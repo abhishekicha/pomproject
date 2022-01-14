@@ -22,6 +22,9 @@
 	         <class name="saucelabs_testcases.LowCodeTest"/> 
 	         <class name="saucelabs_testcases.ErrorReportingTest"/> 
 	         <class name="saucelabs_testcases.AllTheThingsTest"/>                             
-    </classes>
+	         
+	           </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
+	         
+	         

@@ -1,0 +1,63 @@
+package Academy;
+
+import java.io.IOException;
+
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.junit.After;
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+//import pageObjects.LandingPage;
+//import pageObjects.LoginPage;
+import Base.Base;
+
+public class PricingTest extends Base{
+	public WebDriver driver;
+	public static Logger log = LogManager.getLogger(Base.class.getName());
+	
+	@BeforeTest
+	public void initiallize() throws IOException
+	{
+		driver = initializeDriver();
+		driver.get(prop.getProperty("url"));
+		log.info("Driver is on Home page ");
+	}
+	
+	
+	
+	@Test
+	public void basepageNavigation() throws IOException, InterruptedException
+	{
+
+		LandingPage l= new LandingPage(driver);
+		l.getPricing().click();
+		Thread.sleep(5000);
+		PricingPage p = new PricingPage(driver);
+		System.out.println(p.getPricingTitle().getText());
+		Assert.assertEquals(p.getPricingTitle().getText(), "PRICING PLANS1");
+		p.getScrollDown();
+		Thread.sleep(5000);
+		//p.getStarted().click();
+		p.getAllPlans("Real Device Cloud");
+		
+
+	
+	}
+	
+	
+
+
+	@AfterTest
+	public void teardown()
+	{
+		driver.close();
+	}
+}
+
+
+

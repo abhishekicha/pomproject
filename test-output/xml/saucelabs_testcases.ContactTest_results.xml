@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="71.353">
+           time="62.739">
   <properties />
   
   
-            <testcase name="checkContact" time="71.353" classname="saucelabs_testcases.ContactTest" />
+            <testcase name="checkContact" time="62.739" classname="saucelabs_testcases.ContactTest" />
       
 </testsuite>

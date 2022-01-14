@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="72.212">
+           time="70.867">
   <properties />
   
   
-            <testcase name="checkAutomated" time="72.212" classname="saucelabs_testcases.AutomatedTest" />
+            <testcase name="checkAutomated" time="70.867" classname="saucelabs_testcases.AutomatedTest" />
       
 </testsuite>
