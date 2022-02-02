@@ -80,8 +80,9 @@ public class Contact {
 	    cb1.click();
 	    Thread.sleep(3000);
 	    cb2.click();
+	    Thread.sleep(3000);
 	    JavascriptExecutor js3 = (JavascriptExecutor) driver;
-	    js3.executeScript("window.scrollBy(0,420)", "");
+	    js3.executeScript("window.scrollBy(0,500)", "");
 	    Thread.sleep(3000);
 	    text.sendKeys("nothing...");
 	    Thread.sleep(3000);

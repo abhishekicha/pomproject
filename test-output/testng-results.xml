@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-14T12:03:23 IST" name="Default suite" finished-at="2022-01-14T12:04:28 IST" duration-ms="64882">
+  <suite started-at="2022-01-21T12:06:59 IST" name="Default suite" finished-at="2022-01-21T12:08:16 IST" duration-ms="77954">
     <groups>
       <group name="smoke">
-        <method signature="PlatformTest.checkPlatform()[pri:0, instance:saucelabs_testcases.PlatformTest@2ed2d9cb]" name="checkPlatform" class="saucelabs_testcases.PlatformTest"/>
+        <method signature="ContactTest.checkContact()[pri:0, instance:saucelabs_testcases.ContactTest@2ed2d9cb]" name="checkContact" class="saucelabs_testcases.ContactTest"/>
       </group> <!-- smoke -->
       <group name="sanity">
-        <method signature="PlatformTest.checkPlatform()[pri:0, instance:saucelabs_testcases.PlatformTest@2ed2d9cb]" name="checkPlatform" class="saucelabs_testcases.PlatformTest"/>
+        <method signature="ContactTest.checkContact()[pri:0, instance:saucelabs_testcases.ContactTest@2ed2d9cb]" name="checkContact" class="saucelabs_testcases.ContactTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2022-01-14T12:03:23 IST" name="Default test" finished-at="2022-01-14T12:04:28 IST" duration-ms="64882">
-      <class name="saucelabs_testcases.PlatformTest">
-        <test-method signature="checkPlatform()[pri:0, instance:saucelabs_testcases.PlatformTest@2ed2d9cb]" started-at="2022-01-14T12:03:23 IST" name="checkPlatform" finished-at="2022-01-14T12:04:25 IST" duration-ms="62285" status="PASS">
+    <test started-at="2022-01-21T12:06:59 IST" name="Default test" finished-at="2022-01-21T12:08:16 IST" duration-ms="77954">
+      <class name="saucelabs_testcases.ContactTest">
+        <test-method signature="checkContact()[pri:0, instance:saucelabs_testcases.ContactTest@2ed2d9cb]" started-at="2022-01-21T12:06:59 IST" name="checkContact" finished-at="2022-01-21T12:08:15 IST" duration-ms="75908" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkPlatform -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.PlatformTest@2ed2d9cb]" started-at="2022-01-14T12:04:25 IST" name="teardown" finished-at="2022-01-14T12:04:28 IST" duration-ms="2449" status="PASS">
+        </test-method> <!-- checkContact -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:saucelabs_testcases.ContactTest@2ed2d9cb]" started-at="2022-01-21T12:08:15 IST" name="teardown" finished-at="2022-01-21T12:08:16 IST" duration-ms="1871" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- saucelabs_testcases.PlatformTest -->
+      </class> <!-- saucelabs_testcases.ContactTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

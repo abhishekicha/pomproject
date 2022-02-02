@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="61.814">
+           time="67.454">
   <properties />
   
   
-            <testcase name="checkNav" time="61.814" classname="saucelabs_testcases.NavbarTest" />
+            <testcase name="checkNav" time="67.454" classname="saucelabs_testcases.NavbarTest" />
       
 </testsuite>

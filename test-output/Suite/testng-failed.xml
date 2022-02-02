@@ -14,12 +14,12 @@
       </run>
     </groups>
     <classes>
-      <class name="saucelabs_testcases.SupportedIntegrationsTest">
+      <class name="saucelabs_testcases.ContactTest">
         <methods>
+          <include name="checkContact"/>
           <include name="teardown"/>
-          <include name="checkIntegrations"/>
         </methods>
-      </class> <!-- saucelabs_testcases.SupportedIntegrationsTest -->
+      </class> <!-- saucelabs_testcases.ContactTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

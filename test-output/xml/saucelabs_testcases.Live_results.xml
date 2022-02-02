@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="45.870">
+           time="45.934">
   <properties />
   
   
-            <testcase name="checkLive" time="45.870" classname="saucelabs_testcases.Live" />
+            <testcase name="checkLive" time="45.934" classname="saucelabs_testcases.Live" />
       
 </testsuite>

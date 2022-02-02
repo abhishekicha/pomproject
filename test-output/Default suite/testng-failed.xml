@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="saucelabs_testcases.AllTheThingsTest">
+      <class name="saucelabs_testcases.ContactTest">
         <methods>
-          <include name="checkApiTestSol"/>
+          <include name="checkContact"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- saucelabs_testcases.AllTheThingsTest -->
+      </class> <!-- saucelabs_testcases.ContactTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
